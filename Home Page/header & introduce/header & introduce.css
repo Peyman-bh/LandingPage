@@ -1,0 +1,151 @@
+.header-introduce .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.header-introduce .header .texts2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-introduce .header .texts2 .Title {
+  color: #1E293B;
+}
+.header-introduce .header .texts2 .Title .meta {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-introduce .header .texts2 .Title .title {
+  margin: 0;
+  padding: 0;
+  font-size: 54px;
+  font-weight: 900;
+}
+.header-introduce .header .texts2 .Title .title .span {
+  color: #2977d7;
+}
+.header-introduce .header .texts2 .deacription {
+  color: #1E293B;
+  width: 850px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.header-introduce .header .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 35px;
+  padding: 14px 24px 14px 24px;
+  border-radius: 6px;
+  background-color: #2977d7;
+  color: white;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.header-introduce .header .design {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 73px;
+  gap: 498px;
+}
+.header-introduce .header .design .ellapse {
+  position: absolute;
+  width: 1349px;
+  height: 720px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.header-introduce .introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-introduce .introduce .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-introduce .introduce .images .introduce-jupytervideo {
+  position: absolute;
+  left: 100px;
+  top: 760px;
+}
+.header-introduce .introduce .images .introduce-rovrenvideo {
+  position: absolute;
+  position: absolute;
+  left: 550px;
+  top: 600px;
+}
+.header-introduce .introduce .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1E293B;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 230px;
+  top: 700px;
+}
+.header-introduce .introduce .content .text {
+  width: 249px;
+}
+.header-introduce .introduce .content .span {
+  font-size: 24px;
+  font-weight: 900;
+  color: #2977d7;
+}
+.header-introduce .introduce .content .introduce-arrow {
+  position: absolute;
+  left: 270px;
+  bottom: 40px;
+}
+.header-introduce .introduce .title {
+  position: absolute;
+  width: 358px;
+  top: 1070px;
+  left: 740px;
+}
+.header-introduce .introduce .title .text2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header-introduce .introduce .title .openCV {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.header-introduce .introduce .title .openCV .span {
+  color: #2977d7;
+}
+.header-introduce .introduce .title .openCV .bracket {
+  position: absolute;
+}
+.header-introduce .introduce .dot {
+  position: absolute;
+  top: 930px;
+  left: 1140px;
+  z-index: -1;
+}/*# sourceMappingURL=header & introduce.css.map */

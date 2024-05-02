@@ -1,0 +1,80 @@
+.how {
+  position: absolute;
+  top: 300em;
+}
+.how .title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.how .title-section .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.how .title-section .title .text {
+  font-size: 40px;
+  font-weight: 900;
+}
+.how .title-section .title .text .span {
+  color: #2977d7;
+}
+.how .title-section .description {
+  margin: 0;
+  padding: 0;
+  width: 665px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+.how .steps-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.how .steps-section .step {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2977d7;
+}
+.how .steps-section .pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+.how .steps-section .pages .text {
+  font-size: 32px;
+  font-weight: 700px;
+  color: #1e293b;
+}
+.how .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9px;
+}
+.how .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.how .description .des {
+  margin: 0;
+  padding: 0;
+  width: 775px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}/*# sourceMappingURL=how.css.map */

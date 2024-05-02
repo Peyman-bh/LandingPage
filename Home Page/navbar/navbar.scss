@@ -1,0 +1,62 @@
+@import "navbar-mixin";
+
+nav {
+  @include content-row;
+  height: 72px;
+  padding: 0px 30px 0px 30px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(122, 122, 122, 0.37);
+  color: #1E293B;
+
+  .container {
+    @include content-row;
+    gap: 280px;
+
+    .logo {
+      height: 50px;
+    }
+
+    .menus {
+      @include content-row;
+      width: 135px;
+      height: 34px;
+      gap: 32px;
+      font-weight: 500;
+      padding-left: 135px;
+
+      .texts {
+        cursor: pointer;
+      }
+    }
+
+    .actions {
+      @include content-row;
+      gap: 16px;
+      font-weight: 500;
+
+      .lang {
+        display: flex;
+        cursor: pointer;
+
+        .language {
+          display: flex;
+        }
+      }
+
+      .button {
+        background-color: #2977d7;
+        color: white;
+        width: 100px;
+        height: 24px;
+        padding: 9px 24px 9px 24px;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+
+        .login {
+          @include margin;
+        }
+      }
+    }
+  }
+}

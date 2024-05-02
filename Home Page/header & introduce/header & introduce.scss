@@ -1,0 +1,155 @@
+@import "header & introduce-mixin";
+
+.header-introduce {
+  .header {
+    @include content-column;
+    margin-top: 150px;
+    .texts2 {
+      @include content-column;
+      text-align: center;
+
+      .Title {
+        color: #1E293B;
+        .meta {
+          @include margin;
+          font-size: 24px;
+          font-weight: 700;
+        }
+
+        .title {
+          @include margin;
+          font-size: 54px;
+          font-weight: 900;
+
+          .span {
+            color: #2977d7;
+          }
+        }
+      }
+
+      .deacription {
+        color: #1E293B;
+        width: 850px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 30px;
+      }
+    }
+
+    .button {
+      @include content-row;
+      width: 135px;
+      height: 35px;
+      padding: 14px 24px 14px 24px;
+      border-radius: 6px;
+      background-color: #2977d7;
+      color: white;
+      margin-top: 35px;
+      cursor: pointer;
+    }
+
+    .design {
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 73px;
+      gap: 498px;
+
+      .ellapse {
+        position: absolute;
+        width: 1349px;
+        height: 720px;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+    }
+  }
+
+  .introduce {
+    @include content-column;
+
+    .images {
+        @include content-row;
+
+        .introduce-jupytervideo {
+            position: absolute;
+            left: 100px;
+            top: 760px;
+        }
+
+        .introduce-rovrenvideo {
+            position: absolute;
+            position: absolute;
+            left: 550px;
+            top: 600px;
+        }
+    }
+
+    .content {
+        @include content-row;
+        color: #1E293B;
+        font-size: 18px;
+        font-weight: 400;
+        position: absolute;
+        left: 230px;
+        top: 700px;
+
+        .text {
+            width: 249px;
+        }
+
+        .span {
+            font-size: 24px;
+            font-weight: 900;
+            color: #2977d7;
+        }
+
+        .introduce-arrow {
+            position: absolute;
+            left: 270px;
+            bottom: 40px
+        }
+    }
+
+    .title {
+        position: absolute;
+        width: 358px;
+        top: 1070px;
+        left: 740px;
+
+        .text2 {
+            @include margin;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .openCV {
+            @include margin;
+            font-size: 40px;
+            font-weight: 700;
+            margin-top: 15px;
+
+            .span {
+                color: #2977d7;
+            }
+
+            .bracket {
+                position: absolute;
+            }
+        }
+
+    }
+
+    .dot {
+        position: absolute;
+        top: 930px;
+        left: 1140px;
+        z-index: -1;
+    }
+  }
+}

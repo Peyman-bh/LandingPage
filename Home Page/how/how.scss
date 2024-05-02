@@ -1,0 +1,72 @@
+@import "how-mixin";
+
+.how {
+  position: absolute;
+  top: 300em;
+
+  .title-section {
+    @include content-column;
+
+    .title {
+      @include content-row;
+
+      .text {
+        font-size: 40px;
+        font-weight: 900;
+
+        .span {
+          color: #2977d7;
+        }
+      }
+    }
+
+    .description {
+      @include margin;
+      width: 665px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+
+  .steps-section {
+    @include content-column;
+    margin-top: 60px;
+    .step {
+      @include margin;
+      font-size: 18px;
+      font-weight: 600;
+      color: #2977d7;
+    }
+
+    .pages {
+      @include content-row;
+      gap: 65px;
+
+      .text {
+        font-size: 32px;
+        font-weight: 700px;
+        color: #1e293b;
+      }
+    }
+  }
+
+  .images {
+    @include content-row;
+    margin-left: 9px;
+  }
+
+  .description {
+    @include content-row;
+
+    .des {
+      @include margin;
+      width: 775px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+}

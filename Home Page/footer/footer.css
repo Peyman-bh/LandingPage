@@ -1,0 +1,53 @@
+footer {
+  position: absolute;
+  top: 460em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 40px 0 40px;
+  border-top: 1px solid rgba(98, 122, 161, 0.3019607843);
+}
+footer .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+footer .texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .texts .copyright .right {
+  font-size: 14px;
+  font-weight: 400;
+  color: #627AA1;
+}
+footer .texts .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-top: 20px;
+}
+footer .texts .links .text-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #627AA1;
+}
+footer .texts .links .lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .texts .links .lang .language {
+  font-size: 14px;
+  font-weight: 400;
+  color: #627AA1;
+}/*# sourceMappingURL=footer.css.map */

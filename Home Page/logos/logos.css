@@ -1,0 +1,30 @@
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1300px;
+  left: 0;
+  right: 0;
+  height: 180px;
+  padding: 40px 64px 40px 64px;
+  gap: 48px;
+  background-color: #f7f9fc;
+}
+.logos .title .text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.logos .title .text .span {
+  font-size: 24px;
+  font-weight: 900;
+  color: #1e293b;
+}
+.logos .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}/*# sourceMappingURL=logos.css.map */
