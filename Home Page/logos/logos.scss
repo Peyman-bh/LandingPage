@@ -25,6 +25,40 @@
 
   .content {
     @include content-row;
+    flex-wrap: wrap;
     gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logos {
+    top: 1400px;
+    left: 0;
+    right: 0;
+    width: 908px;
+    height: 313px;
+    padding: 40px 64px 40px 64px;
+    gap: 48px;
+
+    .title {
+      .text {
+        font-size: 20px;
+        font-weight: 400;
+        .span {
+          font-size: 26px;
+          font-weight: 900;
+        }
+      }
+    }
+
+    .content {
+      @include content-row;
+      width: 875px;
+      gap: 24px;
+
+      .logo {
+        width: 270px;
+      }
+    }
   }
 }

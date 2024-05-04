@@ -4,20 +4,19 @@ nav {
   justify-content: center;
   align-items: center;
   height: 72px;
-  padding: 0px 30px 0px 30px;
   background-color: white;
   box-shadow: 0 0 10px rgba(122, 122, 122, 0.37);
-  color: #1E293B;
+  color: #1e293b;
 }
 nav .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 280px;
 }
 nav .container .logo {
   height: 50px;
+  padding-right: 425px;
 }
 nav .container .menus {
   display: flex;
@@ -28,7 +27,7 @@ nav .container .menus {
   height: 34px;
   gap: 32px;
   font-weight: 500;
-  padding-left: 135px;
+  padding-right: 260px;
 }
 nav .container .menus .texts {
   cursor: pointer;
@@ -61,4 +60,76 @@ nav .container .actions .button {
 nav .container .actions .button .login {
   margin: 0;
   padding: 0;
+}
+nav .list .menu-button {
+  display: none;
+}
+nav .sidebar {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 700px;
+  right: -330px;
+  height: 100vh;
+  min-width: 250px;
+  box-shadow: -10px 0 10px rgba(122, 122, 122, 0.096);
+  background: rgb(255, 255, 255);
+  list-style: none;
+  display: none;
+  z-index: 1;
+  font-family: Lato;
+}
+nav .sidebar .list {
+  padding-top: 30px;
+}
+nav .sidebar .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+}
+nav .sidebar .actions .lang {
+  display: flex;
+  cursor: pointer;
+}
+nav .sidebar .actions .lang .language {
+  display: flex;
+}
+nav .sidebar .actions .button {
+  background-color: #2977d7;
+  color: white;
+  width: 100px;
+  height: 24px;
+  padding: 9px 24px 9px 24px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+nav .sidebar .actions .button .login {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 1035px;
+  }
+  nav .container .logo {
+    height: 50px;
+    padding-right: 680px;
+  }
+  nav .container .menus {
+    display: none;
+  }
+  nav .container .actions {
+    display: none;
+  }
+  nav .container .list .menu-button {
+    display: block;
+  }
 }/*# sourceMappingURL=navbar.css.map */

@@ -107,6 +107,83 @@
         left: 850px;
         top: 30px;
       }
+
+      .recognition-respensive {
+        display: none;
+      }
+
+      .vision-respensive {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .educator {
+    top: 315em;
+    width: 1035px;
+    height: 650px;
+
+    .center-frame {
+      width: 680px;
+      .texts-section {
+        width: 650px;
+        margin-left: 120px;
+
+        .title-section {
+          width: 650px;
+          .title {
+            width: 690px;
+            .meta {
+              @include margin;
+              margin-bottom: 15px;
+            }
+
+            .title-braket {
+              width: 680px;
+
+              .title {
+                width: 668px;
+              }
+            }
+          }
+        }
+
+        .deacription {
+          width: 380px;
+        }
+      }
+
+      .images {
+        .recognition {
+          display: none;
+        }
+
+        .vision {
+          display: none;
+        }
+
+        .recognition-respensive {
+          position: absolute;
+          display: block;
+          width: 250px;
+          left: 710px;
+          top: 130px;
+        }
+
+        .vision-respensive {
+          position: absolute;
+          display: block;
+          top: 280px;
+          z-index: 1;
+        }
+
+        .educator-vision {
+          left: 505px;
+          top: 160px;
+        }
+      }
     }
   }
 }

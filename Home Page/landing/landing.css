@@ -93,4 +93,58 @@
   font-weight: 400;
   line-height: 30px;
   width: 570px;
+}
+
+@media (max-width: 768px) {
+  .landing {
+    top: 425em;
+    left: 0;
+    right: 0;
+    width: 1035px;
+  }
+  .landing .title-section {
+    margin: 0;
+    padding: 0;
+  }
+  .landing .title-section .description {
+    font-size: 26px;
+  }
+  .landing .frames .frame1 .process {
+    margin: 0;
+    padding: 0;
+    width: 357px;
+  }
+  .landing .frames .frame1 .advice .title {
+    width: 531px;
+  }
+  .landing .frames .frame1 .advice .title .text {
+    font-size: 30px;
+    width: 521px;
+  }
+  .landing .frames .frame1 .advice .description {
+    width: 470px;
+  }
+  .landing .frames .frame2 {
+    gap: 0;
+  }
+  .landing .frames .frame2 .process {
+    margin: 0;
+    padding: 0;
+    width: 357px;
+  }
+  .landing .frames .frame2 .advice {
+    margin: 0;
+    padding: 0;
+    width: 5;
+  }
+  .landing .frames .frame2 .advice .title {
+    width: 550px;
+  }
+  .landing .frames .frame2 .advice .title .text {
+    font-size: 30px;
+    width: 541px;
+  }
+  .landing .frames .frame2 .advice .description {
+    width: 470px;
+  }
 }/*# sourceMappingURL=landing.css.map */

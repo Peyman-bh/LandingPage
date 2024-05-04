@@ -84,3 +84,64 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .landing {
+    top: 425em;
+    left: 0;
+    right: 0;
+    width: 1035px;
+
+    .title-section {
+      @include margin;
+      .description {
+        font-size: 26px;
+      }
+    }
+
+    .frames {
+      .frame1 {
+        .process {
+          @include margin;
+          width: 357px;
+        }
+
+        .advice {
+          .title {
+            width: 531px;
+            .text {
+              font-size: 30px;
+              width: 521px;
+            }
+          }
+          .description {
+            width: 470px;
+          }
+        }
+      }
+
+      .frame2 {
+        gap: 0;
+        .process {
+          @include margin;
+          width: 357px;
+        }
+
+        .advice {
+          @include margin;
+          width: 5;
+          .title {
+            width: 550px;
+            .text {
+              font-size: 30px;
+              width: 541px;
+            }
+          }
+          .description {
+            width: 470px;
+          }
+        }
+      }
+    }
+  }
+}

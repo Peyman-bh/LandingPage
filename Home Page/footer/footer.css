@@ -25,7 +25,7 @@ footer .texts {
 footer .texts .copyright .right {
   font-size: 14px;
   font-weight: 400;
-  color: #627AA1;
+  color: #627aa1;
 }
 footer .texts .links {
   display: flex;
@@ -38,7 +38,7 @@ footer .texts .links {
 footer .texts .links .text-link {
   font-size: 14px;
   font-weight: 400;
-  color: #627AA1;
+  color: #627aa1;
 }
 footer .texts .links .lang {
   display: flex;
@@ -49,5 +49,12 @@ footer .texts .links .lang {
 footer .texts .links .lang .language {
   font-size: 14px;
   font-weight: 400;
-  color: #627AA1;
+  color: #627aa1;
+}
+
+@media (max-width: 768px) {
+  footer {
+    top: 485em;
+    width: 955px;
+  }
 }/*# sourceMappingURL=footer.css.map */

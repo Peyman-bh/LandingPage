@@ -44,3 +44,10 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    top: 485em;
+    width: 955px;
+  }
+}

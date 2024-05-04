@@ -3,17 +3,15 @@
 nav {
   @include content-row;
   height: 72px;
-  padding: 0px 30px 0px 30px;
   background-color: white;
   box-shadow: 0 0 10px rgba(122, 122, 122, 0.37);
-  color: #1E293B;
+  color: #1e293b;
 
   .container {
-    @include content-row;
-    gap: 280px;
-
+    @include content-row; 
     .logo {
       height: 50px;
+      padding-right: 425px;
     }
 
     .menus {
@@ -22,7 +20,7 @@ nav {
       height: 34px;
       gap: 32px;
       font-weight: 500;
-      padding-left: 135px;
+      padding-right: 260px;
 
       .texts {
         cursor: pointer;
@@ -55,6 +53,90 @@ nav {
 
         .login {
           @include margin;
+        }
+      }
+    }
+  }
+
+  .list {
+    .menu-button {
+      display: none;
+    }
+  }
+
+  .sidebar {
+    @include margin;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 700px;
+    right: -330px;
+    height: 100vh;
+    min-width: 250px;
+    box-shadow: -10px 0 10px rgba(122, 122, 122, 0.096);
+    background: rgb(255, 255, 255);
+    list-style: none;
+    display: none;
+    z-index: 1;
+    font-family: Lato;
+    .list {
+      padding-top: 30px;
+    }
+
+    .actions {
+      @include content-row;
+      gap: 16px;
+      font-weight: 500;
+
+      .lang {
+        display: flex;
+        cursor: pointer;
+
+        .language {
+          display: flex;
+        }
+      }
+
+      .button {
+        background-color: #2977d7;
+        color: white;
+        width: 100px;
+        height: 24px;
+        padding: 9px 24px 9px 24px;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+
+        .login {
+          @include margin;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 1035px;
+
+
+    .container {
+      .logo {
+        height: 50px;
+        padding-right: 680px;
+      }
+
+      .menus {
+        display: none;
+      }
+
+      .actions {
+        display: none;
+      }
+      .list {
+        .menu-button {
+          display: block;
         }
       }
     }

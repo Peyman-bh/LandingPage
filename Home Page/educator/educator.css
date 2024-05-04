@@ -104,4 +104,68 @@
   position: absolute;
   left: 850px;
   top: 30px;
+}
+.educator .center-frame .images .recognition-respensive {
+  display: none;
+}
+.educator .center-frame .images .vision-respensive {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .educator {
+    top: 315em;
+    width: 1035px;
+    height: 650px;
+  }
+  .educator .center-frame {
+    width: 680px;
+  }
+  .educator .center-frame .texts-section {
+    width: 650px;
+    margin-left: 120px;
+  }
+  .educator .center-frame .texts-section .title-section {
+    width: 650px;
+  }
+  .educator .center-frame .texts-section .title-section .title {
+    width: 690px;
+  }
+  .educator .center-frame .texts-section .title-section .title .meta {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .educator .center-frame .texts-section .title-section .title .title-braket {
+    width: 680px;
+  }
+  .educator .center-frame .texts-section .title-section .title .title-braket .title {
+    width: 668px;
+  }
+  .educator .center-frame .texts-section .deacription {
+    width: 380px;
+  }
+  .educator .center-frame .images .recognition {
+    display: none;
+  }
+  .educator .center-frame .images .vision {
+    display: none;
+  }
+  .educator .center-frame .images .recognition-respensive {
+    position: absolute;
+    display: block;
+    width: 250px;
+    left: 710px;
+    top: 130px;
+  }
+  .educator .center-frame .images .vision-respensive {
+    position: absolute;
+    display: block;
+    top: 280px;
+    z-index: 1;
+  }
+  .educator .center-frame .images .educator-vision {
+    left: 505px;
+    top: 160px;
+  }
 }/*# sourceMappingURL=educator.css.map */

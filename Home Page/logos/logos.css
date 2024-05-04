@@ -26,5 +26,37 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .logos {
+    top: 1400px;
+    left: 0;
+    right: 0;
+    width: 908px;
+    height: 313px;
+    padding: 40px 64px 40px 64px;
+    gap: 48px;
+  }
+  .logos .title .text {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .logos .title .text .span {
+    font-size: 26px;
+    font-weight: 900;
+  }
+  .logos .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 875px;
+    gap: 24px;
+  }
+  .logos .content .logo {
+    width: 270px;
+  }
 }/*# sourceMappingURL=logos.css.map */

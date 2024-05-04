@@ -24,6 +24,35 @@
     <!-- navbar -->
 
     <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="36"
+              viewBox="0 96 960 960"
+              width="36"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              /></svg
+          ></a>
+        </li>
+        <li class="list">About Us</li>
+        <li class="list">Blog</li>
+        <div class="actions">
+          <div class="lang">
+            <img src="navbar/navbar icons/nav-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="navbar/navbar icons/arrow-down.svg" />
+            </div>
+          </div>
+          <div class="button">
+            <p class="login">Log In</p>
+          </div>
+        </div>
+      </ul>
       <div class="container">
         <div class="logo">
           <img src="navbar/navbar icons/nav-rovrenlogo.svg" />
@@ -44,6 +73,21 @@
             <p class="login">Log In</p>
           </div>
         </div>
+        <ul class="list">
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="36"
+                viewBox="0 96 960 960"
+                width="36"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -67,6 +111,10 @@
         <p class="button">Get Started</p>
         <div class="design">
           <img
+            class="hero"
+            src="header & introduce/images/hero-technology.svg"
+          />
+          <img
             class="hero-tech"
             src="header & introduce/images/hero-tech1.png"
           />
@@ -84,6 +132,9 @@
         <div class="content">
           <p class="text">
             Replacing code with <span class="span">Utilities</span>
+          </p>
+          <p class="text2">
+            <span class="span">Utilities</span> Replacing code with
           </p>
           <img
             class="introduce-arrow"
@@ -121,11 +172,11 @@
         </p>
       </div>
       <div class="content">
-        <img src="logos/logos icons/logo-marwadi.png" />
-        <img src="logos/logos icons/logo-keox.png" />
-        <img src="logos/logos icons/logo-itri.png" />
-        <img src="logos/logos icons/logo-improwised.png" />
-        <img src="logos/logos icons/logo-opencv.png" />
+        <img class="logo" src="logos/logos icons/logo-marwadi.png" />
+        <img class="logo" src="logos/logos icons/logo-keox.png" />
+        <img class="logo" src="logos/logos icons/logo-itri.png" />
+        <img class="logo" src="logos/logos icons/logo-improwised.png" />
+        <img class="logo" src="logos/logos icons/logo-opencv.png" />
       </div>
     </div>
 
@@ -191,6 +242,27 @@
             </div>
           </div>
         </div>
+        <div class="feature2-2">
+          <div class="texts">
+            <div class="badge">
+              <img src="features/features icons/feature-icon-instant.svg" />
+              <p class="text">Instant Effect</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Real-Time Output</p>
+              <p class="description">
+                Real-time visualization allows for immediate observation of the
+                impact caused by any parameter modifications. This invaluable
+                feature significantly expedites development, saving both effort
+                and time
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="features/features icons/features-opratorvideo.png"
+          />
+        </div>
         <div class="feature3">
           <div class="texts">
             <div class="badge">
@@ -235,6 +307,28 @@
             </div>
           </div>
         </div>
+        <div class="feature2-4">
+          <div class="texts">
+            <div class="badge">
+              <img src="features/features icons/feature-icon-glass.svg" />
+              <p class="text">Verification Lens</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Validation Error</p>
+              <p class="description">
+                Below every field, validation errors will be shown for the wrong
+                selection of inputs or parameters based on OpenCV documentation
+                and expert advice. This will save so much time for the
+                programmer in going back to OpenCV Docs and finding the source
+                of every error
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="features/features icons/features-opratorvideo.png"
+          />
+        </div>
       </div>
     </div>
 
@@ -270,7 +364,9 @@
           </div>
         </div>
         <div class="images">
+          <img class="vision-respensive" src="educator/image/educator-vision-respensive.png">
           <img class="vision" src="educator/image/educator-vision.png" />
+          <img class="recognition-respensive" src="educator/image/educator-recognition-respensive.png">
           <img class="recognition"
           src="educator/image/educator-recognition.png"">
           <img
@@ -303,8 +399,9 @@
         </div>
       </div>
       <div class="images">
-        <img src="how/image/rovren panel2 (1).png" />
-        <img src="how/image/rovren panel2.png" />
+        <img class="panel1" src="how/image/rovren panel2 (1).png" />
+        <img class="panel2" src="how/image/rovren panel2.png" />
+        <img class="panel3" src="how/image/rovren panel3.png">
       </div>
       <div class="description">
         <p class="des">
@@ -394,5 +491,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

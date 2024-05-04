@@ -61,7 +61,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 9px;
+  margin-left: 45px;
+}
+.how .images .panel3 {
+  display: none;
 }
 .how .description {
   display: flex;
@@ -77,4 +80,41 @@
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .how {
+    width: 1035px;
+    top: 360em;
+    left: 0;
+    right: 0;
+  }
+  .how .title-section .title {
+    height: 70px;
+  }
+  .how .description .des {
+    margin-top: 490px;
+    font-size: 22px;
+    width: 845px;
+  }
+  .how .images {
+    margin-left: 0px;
+  }
+  .how .images .panel1 {
+    position: absolute;
+    top: 320px;
+    width: 870px;
+    left: 70px;
+    right: 0;
+  }
+  .how .images .panel2 {
+    display: none;
+  }
+  .how .images .panel3 {
+    position: absolute;
+    display: block;
+    width: 140px;
+    top: 315px;
+    left: 895px;
+  }
 }/*# sourceMappingURL=how.css.map */
