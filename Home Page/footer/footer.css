@@ -57,4 +57,50 @@ footer .texts .links .lang .language {
     top: 485em;
     width: 955px;
   }
+}
+@media (max-width: 375px) {
+  footer {
+    top: 900em;
+    width: 955px;
+  }
+  footer .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  footer .card img {
+    width: 150px;
+  }
+  footer .card .media img {
+    width: 65px;
+  }
+  footer .texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .texts .copyright .right {
+    font-size: 30px;
+  }
+  footer .texts .copyright .right span {
+    display: none;
+  }
+  footer .texts .links {
+    gap: 20px;
+    padding-top: 0;
+  }
+  footer .texts .links .text-link {
+    font-size: 30px;
+  }
+  footer .texts .links .text-link span {
+    display: none;
+  }
+  footer .texts .links .lang {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

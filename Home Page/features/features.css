@@ -405,4 +405,123 @@
     padding: 0;
     width: 710px;
   }
+}
+@media (max-width: 375px) {
+  .features {
+    width: 1035px;
+    top: 158em;
+    left: 0;
+    right: 0;
+  }
+  .features .heading .AI {
+    width: 170px;
+  }
+  .features .heading .titles .title {
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .features .heading .titles .bracket {
+    width: 16px;
+  }
+  .features .heading .description {
+    width: 890px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .features .feature-section .feature1 {
+    width: 1035px;
+    gap: 225px;
+  }
+  .features .feature-section .feature1 .texts {
+    gap: 45px;
+  }
+  .features .feature-section .feature1 .texts .badge .text {
+    font-size: 35px;
+  }
+  .features .feature-section .feature1 .texts .badge img {
+    width: 45px;
+  }
+  .features .feature-section .feature1 .texts .section-title .title {
+    font-size: 60px;
+  }
+  .features .feature-section .feature1 .texts .section-title .description {
+    width: 995px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .features .feature-section .feature2-2 {
+    width: 1035px;
+    gap: 225px;
+  }
+  .features .feature-section .feature2-2 .texts {
+    gap: 45px;
+  }
+  .features .feature-section .feature2-2 .texts .badge .text {
+    font-size: 35px;
+  }
+  .features .feature-section .feature2-2 .texts .badge img {
+    width: 45px;
+  }
+  .features .feature-section .feature2-2 .texts .section-title .title {
+    font-size: 60px;
+  }
+  .features .feature-section .feature2-2 .texts .section-title .description {
+    width: 995px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .features .feature-section .feature3 {
+    width: 1035px;
+    gap: 260px;
+  }
+  .features .feature-section .feature3 .texts {
+    gap: 45px;
+  }
+  .features .feature-section .feature3 .texts .badge .text {
+    font-size: 35px;
+  }
+  .features .feature-section .feature3 .texts .badge img {
+    width: 45px;
+  }
+  .features .feature-section .feature3 .texts .section-title .title {
+    font-size: 60px;
+  }
+  .features .feature-section .feature3 .texts .section-title .description {
+    width: 995px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .features .feature-section .feature2-4 {
+    width: 1035px;
+    gap: 260px;
+  }
+  .features .feature-section .feature2-4 .texts {
+    gap: 45px;
+  }
+  .features .feature-section .feature2-4 .texts .badge .text {
+    font-size: 35px;
+  }
+  .features .feature-section .feature2-4 .texts .badge img {
+    width: 45px;
+  }
+  .features .feature-section .feature2-4 .texts .section-title .title {
+    font-size: 60px;
+  }
+  .features .feature-section .feature2-4 .texts .section-title .description {
+    width: 995px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .features .feature-section .operator {
+    width: 1125px;
+  }
 }/*# sourceMappingURL=features.css.map */

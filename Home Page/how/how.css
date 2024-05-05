@@ -117,4 +117,70 @@
     top: 315px;
     left: 895px;
   }
+}
+@media (max-width: 375px) {
+  .how {
+    top: 635em;
+    left: 0;
+    right: 0;
+  }
+  .how .title-section {
+    display: flex;
+    gap: 30px;
+  }
+  .how .title-section .title {
+    height: 70px;
+  }
+  .how .title-section .title .text {
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .how .title-section .title img {
+    width: 14px;
+  }
+  .how .title-section .description {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+    width: 800px;
+  }
+  .how .steps-section {
+    margin-top: 60px;
+  }
+  .how .steps-section .step {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .how .steps-section .pages {
+    gap: 115px;
+  }
+  .how .steps-section .pages .text {
+    font-size: 45px;
+    font-weight: 700px;
+  }
+  .how .steps-section .pages img {
+    width: 80px;
+  }
+  .how .description .des {
+    margin-top: 520px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+    width: 845px;
+  }
+  .how .images {
+    margin-left: 0px;
+  }
+  .how .images .panel1 {
+    position: absolute;
+    top: 530px;
+    width: 970px;
+    left: 30px;
+    right: 0;
+  }
+  .how .images .panel3 {
+    display: none;
+  }
 }/*# sourceMappingURL=how.css.map */

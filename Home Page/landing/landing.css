@@ -94,6 +94,12 @@
   line-height: 30px;
   width: 570px;
 }
+.landing .frames .frame2-2 {
+  display: none;
+}
+.landing .frames .frame1-2 {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .landing {
@@ -146,5 +152,130 @@
   }
   .landing .frames .frame2 .advice .description {
     width: 470px;
+  }
+}
+@media (max-width: 768px) {
+  .landing {
+    top: 725em;
+    left: 0;
+    right: 0;
+    width: 1035px;
+  }
+  .landing .title-section .AI {
+    width: 170px;
+  }
+  .landing .title-section .description {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+  }
+  .landing .frames {
+    margin-top: 0;
+  }
+  .landing .frames .frame2-1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+    width: 1035px;
+  }
+  .landing .frames .frame2-1 .process {
+    width: 650px;
+  }
+  .landing .frames .frame2-1 .advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-1 .advice img {
+    width: 80px;
+  }
+  .landing .frames .frame2-1 .advice .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-1 .advice .title .text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .landing .frames .frame2-1 .advice .title .text .span {
+    color: #2977d7;
+  }
+  .landing .frames .frame2-1 .advice .title img {
+    width: 13px;
+    margin-top: 55px;
+  }
+  .landing .frames .frame2-1 .advice .description {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 58px;
+    width: 800px;
+    text-align: center;
+  }
+  .landing .frames .frame1 {
+    display: none;
+  }
+  .landing .frames .frame2 {
+    display: none;
+  }
+  .landing .frames .frame2-2 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+    width: 1035px;
+  }
+  .landing .frames .frame2-2 .process {
+    width: 650px;
+  }
+  .landing .frames .frame2-2 .advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-2 .advice img {
+    width: 80px;
+  }
+  .landing .frames .frame2-2 .advice .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-2 .advice .title .text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .landing .frames .frame2-2 .advice .title .text .span {
+    color: #2977d7;
+  }
+  .landing .frames .frame2-2 .advice .title img {
+    width: 13px;
+    margin-top: 55px;
+  }
+  .landing .frames .frame2-2 .advice .description {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 58px;
+    width: 800px;
+    text-align: center;
   }
 }/*# sourceMappingURL=landing.css.map */

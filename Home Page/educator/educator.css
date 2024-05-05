@@ -168,4 +168,111 @@
     left: 505px;
     top: 160px;
   }
+}
+@media (max-width: 375px) {
+  .educator {
+    top: 515em;
+    height: 934px;
+    padding-bottom: 820px;
+  }
+  .educator .center-frame .texts-section {
+    width: 650px;
+    margin-left: 0px;
+  }
+  .educator .center-frame .texts-section .title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 640px;
+    top: -150px;
+    left: 200px;
+    right: 0;
+    bottom: 495px;
+    text-align: center;
+  }
+  .educator .center-frame .texts-section .title-section .title {
+    width: 760px;
+  }
+  .educator .center-frame .texts-section .title-section .title .meta {
+    font-size: 35px;
+  }
+  .educator .center-frame .texts-section .title-section .title .title-braket {
+    width: 770px;
+    font-size: 45px;
+    margin-bottom: 370px;
+  }
+  .educator .center-frame .texts-section .title-section .title .title-braket .title {
+    width: 770px;
+  }
+  .educator .center-frame .texts-section .title-section .title .title-braket img {
+    width: 14px;
+  }
+  .educator .center-frame .texts-section .deacription {
+    position: absolute;
+    top: 500px;
+    width: 995px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .educator .center-frame .texts-section .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1035px;
+    position: absolute;
+    top: 950px;
+    left: 0;
+    right: 0;
+    gap: 0;
+  }
+  .educator .center-frame .texts-section .buttons .regular {
+    width: 250px;
+    height: 50px;
+    padding: 35px 24px 14px 24px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .educator .center-frame .texts-section .buttons .learn {
+    width: 200px;
+  }
+  .educator .center-frame .texts-section .buttons .learn .text {
+    height: 25px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .educator .center-frame .texts-section .buttons .learn .arrow {
+    display: none;
+  }
+  .educator .center-frame .images .recognition {
+    display: none;
+  }
+  .educator .center-frame .images .vision {
+    display: none;
+  }
+  .educator .center-frame .images .recognition-respensive {
+    position: absolute;
+    display: block;
+    width: 520px;
+    left: 440px;
+    top: -220px;
+  }
+  .educator .center-frame .images .vision-respensive {
+    position: absolute;
+    display: block;
+    width: 580px;
+    top: 85px;
+    left: 80px;
+    z-index: 1;
+  }
+  .educator .center-frame .images .educator-vision {
+    left: 150px;
+    top: -190px;
+    width: 180px;
+  }
 }/*# sourceMappingURL=educator.css.map */

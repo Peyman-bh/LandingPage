@@ -285,3 +285,101 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .header-introduce {
+    .header {
+      .texts2 {
+        .Title {
+          .meta {
+            font-size: 48px;
+            font-weight: 700;
+          }
+
+          .title {
+            font-size: 80px;
+            font-weight: 900;
+          }
+        }
+
+        .deacription {
+          width: 670px;
+          height: 150px;
+          font-size: 36px;
+          line-height: 48px;
+        }
+      }
+
+      .design {
+        z-index: -1;
+        margin-top: 28px;
+      }
+
+      .button {
+        width: 230px;
+        height: 65px;
+        padding: 14px 24px 14px 24px;
+        margin-top: 30px;
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+
+    .introduce {
+      .images {
+        position: absolute;
+        top: 18em;
+        left: 0;
+        right: 0;
+      }
+
+      .content {
+        font-size: 18px;
+        font-weight: 400;
+        left: 230px;
+        top: 700px;
+
+        .text {
+          display: none;
+        }
+
+        .text2 {
+          display: none;
+        }
+
+        .introduce-arrow {
+          left: -60px;
+          bottom: -120px;
+          top: 335px;
+          width: 130px;
+        }
+      }
+
+      .title {
+        text-align: center;
+        width: 500px;
+        top: 1560px;
+        left: 285px;
+
+        .text2 {
+          font-size: 45px;
+          margin-bottom: 25px;
+        }
+
+        .openCV {
+          font-size: 55px;
+
+          .bracket {
+            position: absolute;
+            width: 14px;
+          }
+        }
+      }
+
+      .dot {
+        top: 960px;
+        left: 720px;
+      }
+    }
+  }
+}

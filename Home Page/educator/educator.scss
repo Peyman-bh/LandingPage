@@ -187,3 +187,125 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .educator {
+    top: 515em;
+    height: 934px;
+    padding-bottom: 820px;
+
+    .center-frame {
+      .texts-section {
+        width: 650px;
+        margin-left: 0px;
+
+        .title-section {
+          @include content-column;
+          position: absolute;
+          width: 640px;
+          top: -150px;
+          left: 200px;
+          right: 0;
+          bottom: 495px;
+          text-align: center;
+          .title {
+            width: 760px;
+            .meta {
+              font-size: 35px;
+            }
+
+            .title-braket {
+              width: 770px;
+              font-size: 45px;
+              margin-bottom: 370px;
+
+              .title {
+                width: 770px;
+              }
+
+              img {
+                width: 14px;
+              }
+            }
+          }
+        }
+
+        .deacription {
+          position: absolute;
+          top: 500px;
+          width: 995px;
+          height: 100px;
+          font-size: 40px;
+          line-height: 58px;
+          font-weight: 400;
+          text-align: center;
+        }
+
+        .buttons {
+          @include content-column;
+          width: 1035px;
+          position: absolute;
+          top: 950px;
+          left: 0;
+          right: 0;
+          gap: 0;
+
+          .regular {
+            width: 250px;
+            height: 50px;
+            padding: 35px 24px 14px 24px;
+            font-size: 30px;
+            font-weight: 400;
+
+          }
+
+          .learn {
+            width: 200px;
+
+            .text {
+              height: 25px;
+              font-size: 30px;
+              font-weight: 400;
+            }
+
+            .arrow {
+              display: none;
+            }
+          }
+        }
+      }
+      .images {
+        .recognition {
+          display: none;
+        }
+
+        .vision {
+          display: none;
+        }
+
+        .recognition-respensive {
+          position: absolute;
+          display: block;
+          width: 520px;
+          left: 440px;
+          top: -220px;
+        }
+
+        .vision-respensive {
+          position: absolute;
+          display: block;
+          width: 580px;
+          top: 85px;
+          left: 80px;
+          z-index: 1;
+        }
+
+        .educator-vision {
+          left: 150px;
+          top: -190px;
+          width: 180px;
+        }
+      }
+    }
+  }
+}

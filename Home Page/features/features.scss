@@ -344,3 +344,167 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .features {
+    width: 1035px;
+    top: 158em;
+    left: 0;
+    right: 0;
+
+    .heading {
+      .AI {
+        width: 170px;
+      }
+      .titles {
+
+        .title {
+          font-size: 60px;
+          font-weight: 900;
+        }
+
+        .bracket {
+          width: 16px;
+        }
+      }
+
+      .description {
+        width: 890px;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 400;
+      }
+    }
+
+    .feature-section {
+
+      .feature1 {
+        width: 1035px;
+        gap: 225px;
+        .texts {
+          gap: 45px;
+          .badge {
+
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              width: 995px;
+              height: 100px;
+              font-size: 40px;
+              line-height: 58px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .feature2-2 {
+        width: 1035px;
+        gap: 225px;
+        .texts {
+          gap: 45px;
+          .badge {
+
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              width: 995px;
+              height: 100px;
+              font-size: 40px;
+              line-height: 58px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .feature3 {
+        width: 1035px;
+        gap: 260px;
+        .texts {
+          gap: 45px;
+          .badge {
+
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              width: 995px;
+              height: 100px;
+              font-size: 40px;
+              line-height: 58px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .feature2-4 {
+        width: 1035px;
+        gap: 260px;
+        .texts {
+          gap: 45px;
+          .badge {
+
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              width: 995px;
+              height: 100px;
+              font-size: 40px;
+              line-height: 58px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .operator {
+        width: 1125px;
+      }
+    }
+  }
+}

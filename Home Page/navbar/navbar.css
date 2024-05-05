@@ -132,4 +132,50 @@ nav .sidebar .actions .button .login {
   nav .container .list .menu-button {
     display: block;
   }
+}
+@media (max-width: 375px) {
+  nav {
+    z-index: 2;
+    height: 100px;
+  }
+  nav .container .logo img {
+    width: 175px;
+    height: 70px;
+  }
+  nav .container .menus {
+    display: none;
+  }
+  nav .container .actions {
+    display: none;
+  }
+  nav .container .actions .button {
+    background-color: #2977d7;
+    color: white;
+    width: 130px;
+    height: 24px;
+    padding: 14px 28px 14px 28px;
+  }
+  nav .container .list .menu-button {
+    display: block;
+  }
+  nav .container .list .menu-button svg {
+    width: 60px;
+    height: 60px;
+  }
+  nav .sidebar {
+    left: 624px;
+    right: -330px;
+    width: 350px;
+    font-size: 30px;
+  }
+  nav .sidebar .actions .button {
+    background-color: #2977d7;
+    color: white;
+    width: 130px;
+    height: 30px;
+    padding: 14px 28px 14px 28px;
+  }
+  nav .sidebar .actions .lang img {
+    width: 40px;
+  }
 }/*# sourceMappingURL=navbar.css.map */
