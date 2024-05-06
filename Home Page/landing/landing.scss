@@ -87,7 +87,7 @@
       display: none;
     }
 
-    .frame1-2 {
+    .frame2-1 {
       display: none;
     }
   }
@@ -154,11 +154,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .landing {
-    top: 725em;
+    position: absolute;
+    top: 11600px;
     left: 0;
     right: 0;
+    bottom: 0;
     width: 1035px;
 
     .title-section {
@@ -274,5 +276,13 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing {
+    left: 0;
+    right: 0;
+    width: 1920px;
   }
 }

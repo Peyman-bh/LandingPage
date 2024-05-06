@@ -275,4 +275,18 @@
     top: -190px;
     width: 180px;
   }
+}
+@media (min-width: 1920px) {
+  .educator {
+    width: 1920px;
+  }
+  .educator .center-frame .images .vision {
+    left: 1060px;
+  }
+  .educator .center-frame .images .recognition {
+    left: 1250px;
+  }
+  .educator .center-frame .images .educator-vision {
+    left: 1110px;
+  }
 }/*# sourceMappingURL=educator.css.map */

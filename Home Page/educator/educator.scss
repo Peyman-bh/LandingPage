@@ -309,3 +309,26 @@
     }
   }
 }
+
+@media (min-width: 1920px) {
+  .educator {
+    width: 1920px;
+
+    .center-frame {
+
+      .images {
+        .vision {
+          left: 1060px;
+        }
+  
+        .recognition {
+          left: 1250px;
+        }
+  
+        .educator-vision {
+          left: 1110px;
+        }
+      }
+    }
+  }
+}

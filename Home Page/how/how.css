@@ -66,6 +66,9 @@
 .how .images .panel3 {
   display: none;
 }
+.how .images .panel4 {
+  display: none;
+}
 .how .description {
   display: flex;
   flex-direction: row;
@@ -182,5 +185,20 @@
   }
   .how .images .panel3 {
     display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .how {
+    left: 0;
+    right: 0;
+  }
+  .how .images .panel1 {
+    margin-left: 330px;
+  }
+  .how .images .panel2 {
+    display: none;
+  }
+  .how .images .panel4 {
+    display: block;
   }
 }/*# sourceMappingURL=how.css.map */

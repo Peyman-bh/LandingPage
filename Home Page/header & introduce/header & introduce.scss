@@ -383,3 +383,56 @@
     }
   }
 }
+
+@media (min-width: 1920px) {
+  .header-introduce {
+    .header {
+      width: 1920px;
+      margin-top: 130px;
+
+      .design {
+        @include content-row;
+        gap: 1065px;
+        .ellapse {
+          width: 1920px;
+          height: 660px;
+        }
+      }
+    }
+
+    .introduce {
+      .images {
+        .introduce-jupytervideo {
+          left: 345px;
+          top: 725px;
+        }
+
+        .introduce-rovrenvideo {
+          left: 815px;
+          top: 565px;
+        }
+      }
+
+      .content {
+        left: 480px;
+        top: 670px;
+      }
+
+      .title {
+        top: 1030px;
+        left: 1000px;
+
+        .openCV {
+          .bracket {
+            position: absolute;
+          }
+        }
+      }
+
+      .dot {
+        top: 888px;
+        left: 1400px;
+      }
+    }
+  }
+}

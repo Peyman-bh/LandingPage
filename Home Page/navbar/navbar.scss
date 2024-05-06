@@ -205,3 +205,18 @@ nav {
     }
   }
 }
+
+@media (min-width: 1920px) {
+  nav {
+
+    .container {
+      .logo {
+        padding-right: 700px;
+      }
+
+      .menus {
+        padding-right: 520px;
+      }
+    }
+  }
+}

@@ -59,6 +59,10 @@
     .panel3 {
       display: none;
     }
+
+    .panel4 {
+      display: none;
+    }
   }
 
   .description {
@@ -196,6 +200,27 @@
       }
       .panel3 {
         display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .how {
+    left: 0;
+    right: 0;
+
+    .images {
+      .panel1 {
+        margin-left: 330px;
+      }
+
+      .panel2 {
+        display: none;
+      }
+
+      .panel4 {
+        display: block;
       }
     }
   }

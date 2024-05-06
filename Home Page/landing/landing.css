@@ -97,7 +97,7 @@
 .landing .frames .frame2-2 {
   display: none;
 }
-.landing .frames .frame1-2 {
+.landing .frames .frame2-1 {
   display: none;
 }
 
@@ -154,11 +154,13 @@
     width: 470px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .landing {
-    top: 725em;
+    position: absolute;
+    top: 11600px;
     left: 0;
     right: 0;
+    bottom: 0;
     width: 1035px;
   }
   .landing .title-section .AI {
@@ -277,5 +279,12 @@
     line-height: 58px;
     width: 800px;
     text-align: center;
+  }
+}
+@media (min-width: 1920px) {
+  .landing {
+    left: 0;
+    right: 0;
+    width: 1920px;
   }
 }/*# sourceMappingURL=landing.css.map */

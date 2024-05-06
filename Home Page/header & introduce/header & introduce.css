@@ -324,4 +324,44 @@
     top: 960px;
     left: 720px;
   }
+}
+@media (min-width: 1920px) {
+  .header-introduce .header {
+    width: 1920px;
+    margin-top: 130px;
+  }
+  .header-introduce .header .design {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1065px;
+  }
+  .header-introduce .header .design .ellapse {
+    width: 1920px;
+    height: 660px;
+  }
+  .header-introduce .introduce .images .introduce-jupytervideo {
+    left: 345px;
+    top: 725px;
+  }
+  .header-introduce .introduce .images .introduce-rovrenvideo {
+    left: 815px;
+    top: 565px;
+  }
+  .header-introduce .introduce .content {
+    left: 480px;
+    top: 670px;
+  }
+  .header-introduce .introduce .title {
+    top: 1030px;
+    left: 1000px;
+  }
+  .header-introduce .introduce .title .openCV .bracket {
+    position: absolute;
+  }
+  .header-introduce .introduce .dot {
+    top: 888px;
+    left: 1400px;
+  }
 }/*# sourceMappingURL=header & introduce.css.map */

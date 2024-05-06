@@ -178,4 +178,12 @@ nav .sidebar .actions .button .login {
   nav .sidebar .actions .lang img {
     width: 40px;
   }
+}
+@media (min-width: 1920px) {
+  nav .container .logo {
+    padding-right: 700px;
+  }
+  nav .container .menus {
+    padding-right: 520px;
+  }
 }/*# sourceMappingURL=navbar.css.map */
