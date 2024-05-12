@@ -51,6 +51,9 @@
   align-items: center;
   gap: 65px;
 }
+.how .steps-section .pages img {
+  cursor: pointer;
+}
 .how .steps-section .pages .text {
   font-size: 32px;
   font-weight: 700px;
@@ -191,6 +194,7 @@
   .how {
     left: 0;
     right: 0;
+    width: auto;
   }
   .how .images .panel1 {
     margin-left: 330px;

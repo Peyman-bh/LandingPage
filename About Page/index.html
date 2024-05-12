@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Page</title>
+    <link rel="stylesheet" href="navbar/navbar.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <link rel="stylesheet" href="introduce/introduce.css">
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="36"
+              viewBox="0 96 960 960"
+              width="36"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              /></svg
+          ></a>
+        </li>
+        <li class="list">About Us</li>
+        <li class="list">Blog</li>
+        <div class="actions">
+          <div class="lang">
+            <img src="navbar/navbar icons/nav-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="navbar/navbar icons/arrow-down.svg" />
+            </div>
+          </div>
+          <div class="button">
+            <p class="login">Log In</p>
+          </div>
+        </div>
+      </ul>
+      <div class="container">
+        <div class="logo">
+          <img src="navbar/navbar icons/nav-rovrenlogo.svg" />
+        </div>
+        <div class="menus">
+          <p class="text-about">About Us</p>
+          <p class="texts">Blog</p>
+        </div>
+        <div class="actions">
+          <div class="lang">
+            <img src="navbar/navbar icons/nav-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="navbar/navbar icons/arrow-down.svg" />
+              <ul class="language__listitemdrop">
+                <li class="list__drop">Arabic</li>
+                <li class="list__drop">中国人</li>
+                <li class="list__drop">French</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <p class="login">Log In</p>
+          </div>
+        </div>
+        <ul class="list">
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="36"
+                viewBox="0 96 960 960"
+                width="36"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header cods -->
+
+    <header>
+      <div class="Title">
+        <p class="metadata">We’re Worldwide</p>
+        <p class="title">About the <span class="span">Rovren</span></p>
+      </div>
+      <div class="header-image">
+        <img src="header/header image/hero-pic.png" />
+      </div>
+    </header>
+
+    <!-- introduce cods -->
+
+    <div class="introduce">
+      <div class="introduce-images">
+        <img src="introduce/introduce image/introduce-computervision.png" />
+        <img class="card" src="introduce/introduce image/introduce-card.png" />
+      </div>
+      <div class="introduce-texts">
+        <div class="titles">
+          <p class="metadata">Simplify, Empower, Thrive!</p>
+          <div class="title-braket">
+            <p class="title">
+              Unleash image processing with <span class="span">Rovren</span>
+            </p>
+            <img src="introduce/introduce image/bracket.svg" />
+          </div>
+          <p class="description">
+            Rovren is an exceptional educational resource that simplifies image
+            processing learning and teaching. It leverages OpenCV libraries to
+            empower users with practical tools, expert tips, and comprehensive
+            documentation. Whether you're a beginner or an experienced educator,
+            Rovren caters to your needs, allowing you to delve into image
+            processing confidently and enjoyably. With hands-on tools, valuable
+            guidance, and reliable documentation, Rovren offers an immersive and
+            rewarding experience in this captivating field.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

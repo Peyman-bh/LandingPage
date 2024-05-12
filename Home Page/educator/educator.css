@@ -59,6 +59,7 @@
   background-color: #2977d7;
   text-align: center;
   color: white;
+  cursor: pointer;
 }
 .educator .center-frame .texts-section .buttons .learn {
   margin: 0;
@@ -70,6 +71,7 @@
   width: 200px;
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 .educator .center-frame .texts-section .buttons .learn .text {
   text-align: center;
@@ -87,6 +89,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: auto;
 }
 .educator .center-frame .images .recognition {
   width: 244px;
@@ -162,6 +170,7 @@
     position: absolute;
     display: block;
     top: 280px;
+    left: 500px;
     z-index: 1;
   }
   .educator .center-frame .images .educator-vision {
@@ -278,7 +287,20 @@
 }
 @media (min-width: 1920px) {
   .educator {
-    width: 1920px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    left: 0;
+  }
+  .educator .center-frame .images {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 0;
+    right: 0;
   }
   .educator .center-frame .images .vision {
     left: 1060px;

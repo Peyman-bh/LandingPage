@@ -39,8 +39,8 @@ nav .container .menus .texts {
 }
 nav .container .menus .text-about {
   cursor: pointer;
-  text-decoration: none;
-  color: #1e293b;
+  border-bottom: solid 5px #2977d7;
+  border-radius: 5px;
 }
 nav .container .actions {
   display: flex;

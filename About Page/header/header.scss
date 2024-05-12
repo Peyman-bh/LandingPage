@@ -1,0 +1,37 @@
+@import "header-mixin";
+
+:root {
+  --color-text: #1e293b;
+  --color-button: #2977d7;
+}
+
+header {
+  @include content-row;
+  @include margin;
+  width: 1341px;
+  gap: 200px;
+  margin-top: 73px;
+
+  .Title {
+    margin-left: 80px;
+    color: var(--color-text);
+    .metadata {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .title {
+      @include margin;
+      font-size: 54px;
+      font-weight: 900;
+
+      .span {
+        color: var(--color-button);
+      }
+    }
+  }
+
+  .header-image {
+    @include margin;
+  }
+}

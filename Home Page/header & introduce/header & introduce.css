@@ -52,7 +52,6 @@
   background-color: #2977d7;
   color: white;
   margin-top: 35px;
-  cursor: pointer;
 }
 .header-introduce .header .design {
   display: flex;
@@ -175,6 +174,10 @@
     display: none;
   }
   .header-introduce .header .design .ellapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 1035px;
     height: 660px;
   }
@@ -326,11 +329,23 @@
   }
 }
 @media (min-width: 1920px) {
+  .header-introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
   .header-introduce .header {
-    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     margin-top: 130px;
   }
   .header-introduce .header .design {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -338,8 +353,18 @@
     gap: 1065px;
   }
   .header-introduce .header .design .ellapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 1920px;
     height: 660px;
+  }
+  .header-introduce .introduce {
+    width: auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
   }
   .header-introduce .introduce .images .introduce-jupytervideo {
     left: 345px;

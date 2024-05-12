@@ -1,0 +1,14 @@
+.introduce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 1340px;
+  margin-top: 100px;
+}
+.introduce .introduce-images {
+  width: 500px;
+}
+.introduce .introduce-texts {
+  width: 500px;
+}/*# sourceMappingURL=introduce.css.map */

@@ -48,7 +48,6 @@
       background-color: #2977d7;
       color: white;
       margin-top: 35px;
-      cursor: pointer;
     }
 
     .design {
@@ -189,6 +188,7 @@
         }
 
         .ellapse {
+          @include content-row;
           width: 1035px;
           height: 660px;
         }
@@ -386,14 +386,19 @@
 
 @media (min-width: 1920px) {
   .header-introduce {
+    @include content-column;
+    width: auto;
     .header {
-      width: 1920px;
+      @include content-column;
+      width: auto;
       margin-top: 130px;
 
       .design {
+        width: auto;
         @include content-row;
         gap: 1065px;
         .ellapse {
+          @include content-row;
           width: 1920px;
           height: 660px;
         }
@@ -401,6 +406,10 @@
     }
 
     .introduce {
+      width: auto;
+      display: flexbox;
+      justify-content: center;
+      align-items: center;
       .images {
         .introduce-jupytervideo {
           left: 345px;

@@ -43,6 +43,10 @@
     .pages {
       @include content-row;
       gap: 65px;
+      
+      img {
+        cursor: pointer;
+      }
 
       .text {
         font-size: 32px;
@@ -209,6 +213,7 @@
   .how {
     left: 0;
     right: 0;
+    width: auto;
 
     .images {
       .panel1 {
