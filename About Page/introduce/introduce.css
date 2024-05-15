@@ -1,14 +1,106 @@
+:root {
+  --color-text: #1e293b;
+  --color-button: #2977d7;
+}
+
 .introduce {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 1340px;
   margin-top: 100px;
+}
+.introduce .introduce-images2 {
+  display: none;
 }
 .introduce .introduce-images {
   width: 500px;
+  height: 500px;
+}
+.introduce .introduce-images .card {
+  position: absolute;
+  top: 650px;
+  left: 70px;
+  right: 0;
 }
 .introduce .introduce-texts {
   width: 500px;
+  height: 500px;
+}
+.introduce .introduce-texts .titles .metadata {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.introduce .introduce-texts .titles .title-braket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: 622px;
+  font-size: 35px;
+  font-weight: 900;
+}
+.introduce .introduce-texts .titles .title-braket .span {
+  color: var(--color-button);
+}
+.introduce .introduce-texts .titles .description {
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media (max-width: 375px) {
+  .introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1145px;
+  }
+  .introduce .introduce-images {
+    display: none;
+  }
+  .introduce .introduce-images2 {
+    display: block;
+    width: 500px;
+    height: 500px;
+  }
+  .introduce .introduce-images2 .card {
+    top: 650px;
+    left: 70px;
+    right: 0;
+  }
+  .introduce .introduce-texts {
+    width: 500px;
+    height: 500px;
+  }
+  .introduce .introduce-texts .titles .metadata {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .introduce .introduce-texts .titles .title-braket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 622px;
+    font-size: 35px;
+  }
+  .introduce .introduce-texts .titles .description {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    font-size: 52px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=introduce.css.map */

@@ -1,0 +1,143 @@
+@import "footer-mixin";
+
+footer {
+  width: 1430px;
+  margin-top: 200px;
+  padding: 0 40px 0 40px;
+  border-top: 1px solid #627aa14d;
+
+  .card {
+    @include content-row;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+
+  .texts {
+    @include content-row;
+    justify-content: space-between;
+
+    .copyright {
+      .right {
+        @include style-links;
+      }
+    }
+
+    .links {
+      @include content-row;
+      @include margin;
+      gap: 24px;
+
+      .text-link {
+        @include style-links;
+      }
+
+      .lang {
+        @include content-row;
+        cursor: pointer;
+
+        .language {
+          @include style-links;
+          display: flex;
+
+          .language__listitemdrop {
+            position: absolute;
+            top: -6.5em;
+            bottom: 50em;
+            left: 90em;
+            right: 0;
+            box-shadow: 0 0 10px gray;
+            background-color: white;
+            border-radius: 10px;
+            width: 12rem;
+            height: 7.5rem;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 400ms ease-in-out;
+            .list__drop {
+              list-style: none;
+              padding: 0.5rem 1rem;
+              border-radius: 10px;
+              transition: background-color 200ms ease-in-out;
+              transition: color 200ms ease-in-out;
+              font-weight: 600;
+            }
+
+            .list__drop:hover {
+              background-color: #2977d7;
+              color: #fff;
+            }
+          }
+        }
+
+        .language:hover .language__listitemdrop {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        .language:focus .language__listitemdrop {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    top: 900em;
+    width: 955px;
+
+    .card {
+      @include content-row;
+      justify-content: space-between;
+      padding-top: 15px;
+
+      img {
+        width: 150px;
+      }
+
+      .media {
+        img {
+          width: 65px;
+        }
+      }
+    }
+
+    .texts {
+      @include content-row;
+      justify-content: space-between;
+
+      .copyright {
+        .right {
+          font-size: 30px;
+
+          span {
+            display: none;
+          }
+        }
+      }
+
+      .links {
+        gap: 20px;
+        padding-top: 0;
+
+        .text-link {
+          font-size: 30px;
+
+          span {
+            display: none;
+          }
+        }
+
+        .lang {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+@import 'scientists-mixin';
+
+:root {
+    --color-text: #1e293b;
+    --color-button: #2977d7;
+}
+
+.scientists {
+    @include content-column;
+    margin-top: 10em;
+
+    .Title {
+        @include content-column;
+
+        .metadata {
+            @include margin;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .title {
+            @include margin;
+            margin-top: 15px;
+            font-size: 40px;
+            font-weight: 900;
+
+            .span {
+                color: var(--color-button);
+            }
+        }
+
+        .description {
+            width: 700px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 33px;
+            text-align: center;
+        }
+    }
+
+    .background {
+        @include content-column;
+        position: relative;
+        z-index: -1;
+
+        .contact {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: -600px;
+        }
+    }
+
+    .profiles {
+        @include content-row;
+        margin-top: 50px;
+        gap: 80px;
+
+        .frame1 {
+            @include content-column;
+            width: 240px;
+            height: 400px;
+
+            .image {
+                @include content-row;
+            }
+
+            .texts {
+                @include content-column;
+
+                .metadata {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: var(--color-button);
+                }
+
+                .name {
+                    @include margin;
+                    font-size: 24px;
+                    font-weight: 900;
+                }
+            }
+        }
+
+        .frame2 {
+            @include content-column;
+            width: 240px;
+            height: 400px;
+
+            .image {
+                @include content-row;
+            }
+
+            .texts {
+                @include content-column;
+
+                .metadata {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: var(--color-button);
+                }
+
+                .name {
+                    @include margin;
+                    font-size: 24px;
+                    font-weight: 900;
+                }
+            }
+        }
+
+        .frame3 {
+            @include content-column;
+            width: 240px;
+            height: 400px;
+
+            .image {
+                @include content-row;
+            }
+
+            .texts {
+                @include content-column;
+
+                .metadata {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: var(--color-button);
+                }
+
+                .name {
+                    @include margin;
+                    font-size: 24px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

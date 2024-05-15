@@ -185,6 +185,7 @@ nav .sidebar .button .login {
 }
 @media (max-width: 375px) {
   nav {
+    width: 1149px;
     z-index: 2;
     height: 100px;
   }
@@ -213,17 +214,24 @@ nav .sidebar .button .login {
     height: 60px;
   }
   nav .sidebar {
-    left: 624px;
+    left: 642px;
     right: -330px;
     width: 350px;
     font-size: 30px;
   }
+  nav .sidebar .actions {
+    display: flex;
+    flex-direction: column;
+  }
   nav .sidebar .actions .button {
     background-color: #2977d7;
     color: white;
-    width: 130px;
+    width: 180px;
     height: 30px;
     padding: 14px 28px 14px 28px;
+  }
+  nav .sidebar .actions .button p {
+    width: 160px;
   }
   nav .sidebar .actions .lang img {
     width: 40px;

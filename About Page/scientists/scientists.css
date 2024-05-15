@@ -1,0 +1,156 @@
+:root {
+  --color-text: #1e293b;
+  --color-button: #2977d7;
+}
+
+.scientists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10em;
+}
+.scientists .Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scientists .Title .metadata {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.scientists .Title .title {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.scientists .Title .title .span {
+  color: var(--color-button);
+}
+.scientists .Title .description {
+  width: 700px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+}
+.scientists .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: -1;
+}
+.scientists .background .contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: -600px;
+}
+.scientists .profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 80px;
+}
+.scientists .profiles .frame1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 240px;
+  height: 400px;
+}
+.scientists .profiles .frame1 .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.scientists .profiles .frame1 .texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scientists .profiles .frame1 .texts .metadata {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+.scientists .profiles .frame1 .texts .name {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 900;
+}
+.scientists .profiles .frame2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 240px;
+  height: 400px;
+}
+.scientists .profiles .frame2 .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.scientists .profiles .frame2 .texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scientists .profiles .frame2 .texts .metadata {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+.scientists .profiles .frame2 .texts .name {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 900;
+}
+.scientists .profiles .frame3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 240px;
+  height: 400px;
+}
+.scientists .profiles .frame3 .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.scientists .profiles .frame3 .texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scientists .profiles .frame3 .texts .metadata {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-button);
+}
+.scientists .profiles .frame3 .texts .name {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 900;
+}/*# sourceMappingURL=scientists.css.map */

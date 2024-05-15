@@ -268,6 +268,7 @@ nav {
 
 @media (max-width: 375px) {
   nav {
+    width: 1149px;
     z-index: 2;
     height: 100px;
 
@@ -307,17 +308,23 @@ nav {
     }
 
     .sidebar {
-      left: 624px;
+      left: 642px;
       right: -330px;
       width: 350px;
       font-size: 30px;
       .actions {
+        display: flex;
+        flex-direction: column;
         .button {
           background-color: #2977d7;
           color: white;
-          width: 130px;
+          width: 180px;
           height: 30px;
           padding: 14px 28px 14px 28px;
+
+          p {
+            width: 160px;
+          }
         }
 
         .lang {

@@ -1,15 +1,109 @@
 @import 'introduce-mixin';
 
+:root {
+    --color-text: #1e293b;
+    --color-button: #2977d7;
+}
+
 .introduce {
     @include content-row;
-    width: 1340px;
     margin-top: 100px;
+
+    .introduce-images2 {
+        display: none;
+    }
 
     .introduce-images {
         width: 500px;
+        height: 500px;
+
+        .card {
+            position: absolute;
+            top: 650px;
+            left: 70px;
+            right: 0;
+        }
     }
 
     .introduce-texts {
         width: 500px;
+        height: 500px;
+
+        .titles {
+            .metadata {
+                @include margin;
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .title-braket {
+                @include content-row;
+                @include margin;
+                width: 622px;
+                font-size: 35px;
+                font-weight: 900;
+
+                .span {
+                    color: var(--color-button);
+                }
+            }
+
+            .description {
+                @include margin;
+                width: 600px;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .introduce {
+        @include content-column;
+        width: 1145px;
+    
+        .introduce-images {
+            display: none;
+        }
+
+        .introduce-images2 {
+            display: block;
+            width: 500px;
+            height: 500px;
+
+            .card {
+                top: 650px;
+                left: 70px;
+                right: 0;
+            }
+        }
+    
+        .introduce-texts {
+            width: 500px;
+            height: 500px;
+    
+            .titles {
+                .metadata {
+                    @include margin;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+    
+                .title-braket {
+                    @include content-row;
+                    @include margin;
+                    width: 622px;
+                    font-size: 35px;
+                }
+    
+                .description {
+                    @include margin;
+                    width: 800px;
+                    font-size: 52px;
+                    text-align: center;
+                }
+            }
+        }
     }
 }

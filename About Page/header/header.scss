@@ -8,13 +8,15 @@
 header {
   @include content-row;
   @include margin;
-  width: 1341px;
-  gap: 200px;
+  width: auto;
+  gap: 300px;
   margin-top: 73px;
 
   .Title {
-    margin-left: 80px;
+    @include margin;
+    margin-left: 130px;
     color: var(--color-text);
+
     .metadata {
       font-size: 24px;
       font-weight: 700;
@@ -22,6 +24,7 @@ header {
 
     .title {
       @include margin;
+      width: 441px;
       font-size: 54px;
       font-weight: 900;
 
@@ -33,5 +36,37 @@ header {
 
   .header-image {
     @include margin;
+
+    .hero-pic {
+      @include margin;
+    }
+
+    .hero {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    @include content-row;
+    gap: 93px;
+    width: 1145px;
+
+    .Title {
+      @include margin;
+      margin-left: 110px;
+
+      .metadata {
+        @include margin;
+        font-size: 38px;
+      }
+
+      .title {
+        @include margin;
+        width: 300px;
+        font-size: 65px;
+      }
+    }
   }
 }

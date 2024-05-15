@@ -1,6 +1,9 @@
 @import "header & introduce-mixin";
 
 .header-introduce {
+  @include content-column;
+  width: auto;
+  height: auto;
   .header {
     @include content-column;
     margin-top: 150px;
@@ -56,11 +59,11 @@
       left: 0;
       right: 0;
       top: 73px;
-      gap: 498px;
+      gap: 668px;
 
       .ellapse {
         position: absolute;
-        width: 1349px;
+        width: 1519px;
         height: 720px;
         left: 0;
         right: 0;
@@ -75,7 +78,7 @@
 
   .introduce {
     @include content-column;
-
+    width: auto;
     .images {
       @include content-row;
 
@@ -394,12 +397,11 @@
       margin-top: 130px;
 
       .design {
-        width: auto;
+        width: 1024px;
         @include content-row;
         gap: 1065px;
         .ellapse {
-          @include content-row;
-          width: 1920px;
+          
           height: 660px;
         }
       }

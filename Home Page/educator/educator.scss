@@ -4,10 +4,11 @@
   @include content-row;
   position: absolute;
   left: 0;
+  right: 0;
   top: 260em;
   background-color: #dde9f9;
   height: 550px;
-  width: 1349px;
+  width: auto;
 
   .center-frame {
     @include content-row;

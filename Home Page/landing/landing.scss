@@ -2,11 +2,12 @@
 
 .landing {
   position: absolute;
+  left: 0;
+  right: 0;
   top: 380em;
 
   .title-section {
     @include content-column;
-    margin-left: 100px;
 
     .description {
       @include content-row;
@@ -24,10 +25,6 @@
     .frame1 {
       @include content-row;
       gap: 30px;
-
-      .process {
-        margin-left: 100px;
-      }
 
       .advice {
         .title {
@@ -283,6 +280,5 @@
   .landing {
     left: 0;
     right: 0;
-    width: auto;
   }
 }

@@ -1,5 +1,7 @@
 .landing {
   position: absolute;
+  left: 0;
+  right: 0;
   top: 380em;
 }
 .landing .title-section {
@@ -7,7 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
 }
 .landing .title-section .description {
   display: flex;
@@ -33,9 +34,6 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-}
-.landing .frames .frame1 .process {
-  margin-left: 100px;
 }
 .landing .frames .frame1 .advice .title {
   display: flex;
@@ -285,6 +283,5 @@
   .landing {
     left: 0;
     right: 0;
-    width: auto;
   }
 }/*# sourceMappingURL=landing.css.map */
