@@ -1,0 +1,74 @@
+:root {
+  --color-text: #1e293b;
+  --color-button: #2977d7;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  gap: 232px;
+  margin-top: 73px;
+}
+header .Title {
+  margin: 0;
+  padding: 0;
+  margin-left: 130px;
+  color: var(--color-text);
+}
+header .Title .metadata {
+  font-size: 24px;
+  font-weight: 700;
+}
+header .Title .title {
+  margin: 0;
+  padding: 0;
+  width: 510px;
+  font-size: 54px;
+  font-weight: 900;
+}
+header .Title .title .span {
+  color: var(--color-button);
+}
+header .header-image {
+  margin: 0;
+  padding: 0;
+}
+header .header-image .hero-pic {
+  margin: 0;
+  padding: 0;
+}
+header .header-image .hero {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 93px;
+    width: 1145px;
+  }
+  header .Title {
+    margin: 0;
+    padding: 0;
+    margin-left: 110px;
+  }
+  header .Title .metadata {
+    margin: 0;
+    padding: 0;
+    font-size: 38px;
+  }
+  header .Title .title {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    font-size: 65px;
+  }
+}/*# sourceMappingURL=header.css.map */

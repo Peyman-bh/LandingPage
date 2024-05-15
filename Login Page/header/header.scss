@@ -1,0 +1,72 @@
+@import "header-mixin";
+
+:root {
+  --color-text: #1e293b;
+  --color-button: #2977d7;
+}
+
+header {
+  @include content-row;
+  @include margin;
+  width: auto;
+  gap: 232px;
+  margin-top: 73px;
+
+  .Title {
+    @include margin;
+    margin-left: 130px;
+    color: var(--color-text);
+
+    .metadata {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .title {
+      @include margin;
+      width: 510px;
+      font-size: 54px;
+      font-weight: 900;
+
+      .span {
+        color: var(--color-button);
+      }
+    }
+  }
+
+  .header-image {
+    @include margin;
+
+    .hero-pic {
+      @include margin;
+    }
+
+    .hero {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    @include content-row;
+    gap: 93px;
+    width: 1145px;
+
+    .Title {
+      @include margin;
+      margin-left: 110px;
+
+      .metadata {
+        @include margin;
+        font-size: 38px;
+      }
+
+      .title {
+        @include margin;
+        width: 300px;
+        font-size: 65px;
+      }
+    }
+  }
+}

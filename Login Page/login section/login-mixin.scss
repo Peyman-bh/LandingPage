@@ -1,0 +1,36 @@
+@mixin content-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin margin {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin button {
+    @include content-row;
+    justify-content: start;
+    align-items: start;
+    padding: 8px 12px 8px 12px;
+    width: 427px;
+    height: 48px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+@mixin text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text);
+}

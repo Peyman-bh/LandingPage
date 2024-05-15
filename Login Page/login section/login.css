@@ -1,0 +1,191 @@
+:root {
+  --color: #2977D7;
+  --color-texts: rgb(255, 136, 0);
+  --background-color: #EFF2F6;
+  --text: #627AA1;
+  --border: #CED6E2;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.login-section .Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-section .Title .title {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+.login-section .Title .title .span {
+  color: var(--color);
+}
+.login-section .Title .description {
+  font-size: 20px;
+  font-weight: 400;
+  width: 700px;
+  text-align: center;
+}
+.login-section .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 24px;
+}
+.login-section .login .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.login-section .login .email .text {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+.login-section .login .firstname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.login-section .login .firstname .text {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+.login-section .login .lastname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.login-section .login .lastname .text {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+.login-section .login .choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  gap: 210px;
+}
+.login-section .login .choose .arrow {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.login-section .login .choose .text {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+.login-section .login .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  height: 135px;
+}
+.login-section .login .description .text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+.login-section .login .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 12px 8px 12px;
+  width: 427px;
+  height: 48px;
+  background-color: var(--color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login-section .login .button .text {
+  color: white;
+  font-size: 17px;
+}
+.login-section .login .own {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.login-section .login .own .text {
+  font-size: 15px;
+}
+.login-section .login .own .text .span {
+  color: var(--color-texts);
+}/*# sourceMappingURL=login.css.map */

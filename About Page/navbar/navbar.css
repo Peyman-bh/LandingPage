@@ -36,6 +36,8 @@ nav .container .menus {
 }
 nav .container .menus .texts {
   cursor: pointer;
+  text-decoration: none;
+  color: #1e293b;
 }
 nav .container .menus .text-about {
   cursor: pointer;
@@ -107,6 +109,8 @@ nav .container .actions .button {
 nav .container .actions .button .login {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: #fff;
 }
 nav .list .menu-button {
   display: none;

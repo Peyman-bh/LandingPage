@@ -62,7 +62,7 @@
     .introduce {
         @include content-column;
         width: 1145px;
-    
+
         .introduce-images {
             display: none;
         }
@@ -78,25 +78,25 @@
                 right: 0;
             }
         }
-    
+
         .introduce-texts {
             width: 500px;
             height: 500px;
-    
+
             .titles {
                 .metadata {
                     @include margin;
                     font-size: 24px;
                     font-weight: 700;
                 }
-    
+
                 .title-braket {
                     @include content-row;
                     @include margin;
                     width: 622px;
                     font-size: 35px;
                 }
-    
+
                 .description {
                     @include margin;
                     width: 800px;

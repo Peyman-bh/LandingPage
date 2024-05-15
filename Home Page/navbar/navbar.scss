@@ -104,6 +104,8 @@ nav {
 
         .login {
           @include margin;
+          text-decoration: none;
+          color: #fff;
         }
       }
     }

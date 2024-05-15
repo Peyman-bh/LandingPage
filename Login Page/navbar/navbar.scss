@@ -22,7 +22,7 @@ nav {
 
     .menus {
       @include content-row;
-      width: 135px;
+      width: 250px;
       height: 34px;
       gap: 32px;
       font-weight: 500;
@@ -34,10 +34,15 @@ nav {
         color: #1e293b;
       }
 
-      .text-about {
+      .text-contact {
         cursor: pointer;
         border-bottom: solid 5px #2977d7;
         border-radius: 5px;
+      }
+
+      .text-about {
+        text-decoration: none;
+        color: #1e293b;
       }
     }
 
@@ -109,8 +114,6 @@ nav {
 
         .login {
           @include margin;
-          text-decoration: none;
-          color: #fff;
         }
       }
     }

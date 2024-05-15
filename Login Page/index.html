@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Loging Page</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="navbar/navbar.css">
+    <link rel="stylesheet" href="header/header.css">
+    <link rel="stylesheet" href="login section/login.css">
+    <link rel="stylesheet" href="footer/footer.css">
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 96 960 960" width="36">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a>
+            </li>
+            <li class="list">About Us</li>
+            <li class="list">Blog</li>
+            <div class="actions">
+                <div class="lang">
+                    <img src="navbar/navbar icons/nav-icon-globe.svg" />
+                    <div class="language">
+                        <p>English</p>
+                        <img src="navbar/navbar icons/arrow-down.svg" />
+                    </div>
+                </div>
+                <div class="button">
+                    <p class="login">Log In</p>
+                </div>
+            </div>
+        </ul>
+        <div class="container">
+            <div class="logo">
+                <img src="navbar/navbar icons/nav-rovrenlogo.svg" />
+            </div>
+            <div class="menus">
+                <a href="http://127.0.0.1:5500/About%20Page/index.html" target="_blank" class="text-about">About Us</a>
+                <a href="http://127.0.0.1:5500/Home%20Page/index.html" target="_blank" class="texts">Blog</a>
+                <p class="text-contact">Contact Us</p>
+            </div>
+            <div class="actions">
+                <div class="lang">
+                    <img src="navbar/navbar icons/nav-icon-globe.svg" />
+                    <div class="language">
+                        <p>English</p>
+                        <img src="navbar/navbar icons/arrow-down.svg" />
+                        <ul class="language__listitemdrop">
+                            <li class="list__drop">Arabic</li>
+                            <li class="list__drop">中国人</li>
+                            <li class="list__drop">French</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                    <p class="login">Log In</p>
+                </div>
+            </div>
+            <ul class="list">
+                <li class="menu-button" onclick="showSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 96 960 960" width="36">
+                            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header cods -->
+
+    <header>
+        <div class="Title">
+            <p class="metadata">Get in Touch</p>
+            <p class="title">Contact with <span class="span">Rovren</span></p>
+        </div>
+        <div class="header-image">
+            <img class="hero-pic" src="header/header image/hero-pic.png" />
+            <img class="hero" src="header/header image/hero.png">
+        </div>
+    </header>
+
+    <!-- Login Section -->
+
+    <div class="login-section">
+        <div class="Title">
+            <p class="title">Get in Touch with <span class="span">Rovren</span>'s Image Solutions</p>
+            <p class="description">Connect with Rovren for cutting-edge image processing solutions. Enhance, manipulate,
+                and analyze your images with ease. Reach out to us today!</p>
+        </div>
+        <div class="login">
+            <div class="email">
+                <p class="text">Email</p>
+            </div>
+            <div class="firstname">
+                <p class="text">First Name</p>
+            </div>
+            <div class="lastname">
+                <p class="text">Last Name</p>
+            </div>
+            <div class="choose">
+                <p class="text">Choose your Occupation ... </p>
+                <div class="arrow">
+                    <img src="login section/images/arrow-left.svg">
+                </div>
+            </div>
+            <div class="description">
+                <p class="text">Description</p>
+            </div>
+            <div class="button">
+                <p class="text">Connect Now</p>
+            </div>
+            <div class="own">
+                <img src="login section/images/HubSpot-Marketing-Hub 1.svg">
+                <p class="text"><span class="span">Create your own free form</span> to Generate lead for free form</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="card">
+            <img src="footer/image/footer-rovrenlogo.svg" />
+            <div class="media">
+                <img src="footer/image/footer-icon-LinkedIn.svg" />
+                <img src="footer/image/footer-icon-youtube.svg" />
+            </div>
+        </div>
+        <div class="texts">
+            <div class="copyright">
+                <p class="right">
+                    <span>Copyright </span>@2024 by Rovren.
+                    <span>All Rights Reserved</span>
+                </p>
+            </div>
+            <div class="links">
+                <p class="text-link">Privacy <span>Policy</span></p>
+                <p class="text-link">Terms of Service</p>
+                <p class="text-link">Cookies <span>Settings</span></p>
+                <div class="lang">
+                    <img src="footer/image/footer-icon-globe.svg" />
+                    <div class="language">
+                        <p>English</p>
+                        <img src="footer/image/arrow-down.svg" />
+                        <ul class="language__listitemdrop">
+                            <li class="list__drop">Arabic</li>
+                            <li class="list__drop">中国人</li>
+                            <li class="list__drop">French</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
