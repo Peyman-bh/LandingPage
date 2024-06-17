@@ -14,15 +14,18 @@
     }
 
     .introduce-images {
+        position: relative;
         width: 500px;
         height: 500px;
-
-        .card {
-            position: absolute;
-            top: 650px;
-            left: 70px;
-            right: 0;
-        }
+    }
+    
+    .card {
+        position: absolute;
+        left: -170px;
+        right: 0;
+        top: 140px;
+        bottom: 0;
+        z-index: 1;
     }
 
     .introduce-texts {

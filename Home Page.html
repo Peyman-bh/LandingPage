@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="Home Page cods/navbar/navbar.css" />
+    <link rel="stylesheet" href="Home Page cods//body.css" />
+    <link rel="stylesheet" href="Home Page cods/header & introduce/header & introduce.css" />
+    <link rel="stylesheet" href="Home Page cods/logos/logos.css" />
+    <link rel="stylesheet" href="Home Page cods/features/features.css" />
+    <link rel="stylesheet" href="Home Page cods/educator/educator.css" />
+    <link rel="stylesheet" href="Home Page cods/how/how.css" />
+    <link rel="stylesheet" href="Home Page cods/landing/landing.css" />
+    <link rel="stylesheet" href="Home Page cods/footer/footer.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <nav>
+      <ul class="sidebar">
+        <li class="hide" onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="36"
+              viewBox="0 96 960 960"
+              width="36"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              /></svg
+          ></a>
+        </li>
+        <a href="About Page.html" target="_blank" class="link">About Us</a>
+        <li class="list">Blog</li>
+        <div class="actions">
+          <div class="lang">
+            <img src="image/Home Page images/navbar icons/nav-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="image/Home Page images/navbar icons/arrow-down.svg" />
+              <ul class="language__listitemdrop">
+                <li class="list__drop">Arabic</li>
+                <li class="list__drop">中国人</li>
+                <li class="list__drop">French</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <a
+              target="_blank"
+              class="login"
+              >Log In</a
+            >
+          </div>
+        </div>
+      </ul>
+      <div class="container">
+        <div class="logo">
+          <img src="image/Home Page images/navbar icons/nav-rovrenlogo.svg" />
+        </div>
+        <div class="menus">
+          <a
+            href="About Page.html"
+            class="text-about"
+            target="_blank"
+            >About Us</a
+          >
+          <p class="texts">Blog</p>
+        </div>
+        <div class="actions">
+          <div class="lang">
+            <img src="image/Home Page images/navbar icons/nav-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="image/Home Page images/navbar icons/arrow-down.svg" />
+              <ul class="language__listitemdrop">
+                <li class="list__drop">Arabic</li>
+                <li class="list__drop">中国人</li>
+                <li class="list__drop">French</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <a
+              target="_blank"
+              class="login"
+              >Log In</a
+            >
+          </div>
+        </div>
+        <ul class="list">
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="36"
+                viewBox="0 96 960 960"
+                width="36"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header & introduce -->
+
+    <div class="header-introduce">
+      <div class="header">
+        <div class="texts2">
+          <div class="Title">
+            <p class="meta">Fraction of the time</p>
+            <p class="title">
+              Learn <span class="span"> computer vision </span>
+            </p>
+          </div>
+          <p class="deacription">
+            Rovren is an innovative, educational resource designed for
+            simplifying the teaching and learning of image processing by
+            utilizing OpenCV libraries
+          </p>
+        </div>
+        <button class="button">Get Started</button>
+        <div class="design">
+          <img
+            class="hero"
+            src="image/Home Page images/header images/hero-technology.svg"
+          />
+          <img
+            class="hero2"
+            src="image/Home Page images/header images/hero-technology.png"
+          />
+          <img
+            class="hero-tech"
+            src="image/Home Page images/header images/hero-tech1.png"
+          />
+          <img class="ellapse1" src="image/Home Page images/header images/ellapse1.svg" />
+          <img class="ellapse2" src="image/Home Page images/header images/ellapse2.svg" />
+          <img class="ellapse3" src="image/Home Page images/header images/ellapse3.svg" />
+          <img
+            class="hero-tech"
+            src="image/Home Page images/header images/hero-tech2.png"
+          />
+        </div>
+      </div>
+
+      <!-- introduce -->
+
+      <div class="introduce">
+        <div class="content">
+          <p class="text">
+            Replacing code with <span class="span">Utilities</span>
+          </p>
+          <p class="text2">
+            <span class="span">Utilities</span> Replacing code with
+          </p>
+          <img
+            class="introduce-arrow"
+            src="image/Home Page images/header images/introduce-arrow.svg"
+          />
+        </div>
+        <div class="images">
+          <img
+            class="introduce-jupytervideo"
+            src="image/Home Page images/header images/introduce-jupytervideo.png"
+          />
+          <img
+            class="introduce-rovrenvideo"
+            src="image/Home Page images/header images/introduce-rovrenvideo.png"
+          />
+        </div>
+        <div class="title">
+          <p class="text2">Visualized OpenCV</p>
+          <div class="openCV">
+            OpenCV <span class="span">Simplified</span>
+            <img class="bracket" src="image/Home Page images/header images/bracket.svg" />
+            <img class="dot" src="image/Home Page images/header images/dot.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- logos -->
+
+    <div class="logos">
+      <div class="title">
+        <p class="text">
+          <span class="span">Trusted by</span>industry-leading companies around
+          the globe
+        </p>
+      </div>
+      <div class="content">
+        <img class="logo" src="image/Home Page images/logos icons/logo-marwadi.png" />
+        <img class="logo" src="image/Home Page images/logos icons/logo-keox.png" />
+        <img class="logo" src="image/Home Page images/logos icons/logo-itri.png" />
+        <img class="logo" src="image/Home Page images/logos icons/logo-improwised.png" />
+        <img class="logo" src="image/Home Page images/logos icons/logo-opencv.png" />
+      </div>
+    </div>
+
+    <!-- features -->
+
+    <div class="features">
+      <div class="heading">
+        <img class="AI" src="image/Home Page images/features icons/feature-AI.png" />
+        <div class="titles">
+          <p class="title">Understand <span class="span">Quickly!</span></p>
+          <img class="bracket" src="image/Home Page images/features icons/bracket.svg" />
+        </div>
+        <p class="description">
+          Rovren offers a effortless image processing learning platform. With a
+          user-friendly, no-code interface, grasp complex processes and concepts
+          quickly. Drag and drop operators, with clear explanations provided.
+          Master image processing with ease on Rovren
+        </p>
+      </div>
+
+      <!-- feature sections -->
+
+      <div class="feature-section">
+        <div class="feature1">
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-library.svg" />
+              <p class="text">Algorithm Library</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Operator Libraries</p>
+              <p class="description">
+                From the long list of processing operators on the left pane, an
+                unlimited number could be selected and used on the main page.
+                They act just like any image processing algorithm that has over
+                hundreds of operators stitched together.
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+        </div>
+        <div class="feature2">
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-instant.svg" />
+              <p class="text">Instant Effect</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Real-Time Output</p>
+              <p class="description">
+                Real-time visualization allows for immediate observation of the
+                impact caused by any parameter modifications. This invaluable
+                feature significantly expedites development, saving both effort
+                and time
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature2-2">
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-instant.svg" />
+              <p class="text">Instant Effect</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Real-Time Output</p>
+              <p class="description">
+                Real-time visualization allows for immediate observation of the
+                impact caused by any parameter modifications. This invaluable
+                feature significantly expedites development, saving both effort
+                and time
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+        </div>
+        <div class="feature3">
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-guide.svg" />
+              <p class="text">Guide Assistant</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Operator Help</p>
+              <p class="description">
+                Next to each operator, there is a question mark that reveals the
+                operator information such as introduction, description,
+                examples, and resources. It answers the questions of what the
+                operator is and how to use it. It helps the user to select the
+                most appropriate operation
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+        </div>
+        <div class="feature4">
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-glass.svg" />
+              <p class="text">Verification Lens</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Validation Error</p>
+              <p class="description">
+                Below every field, validation errors will be shown for the wrong
+                selection of inputs or parameters based on OpenCV documentation
+                and expert advice. This will save so much time for the
+                programmer in going back to OpenCV Docs and finding the source
+                of every error
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature2-4">
+          <div class="texts">
+            <div class="badge">
+              <img src="image/Home Page images/features icons/feature-icon-glass.svg" />
+              <p class="text">Verification Lens</p>
+            </div>
+            <div class="section-title">
+              <p class="title">Validation Error</p>
+              <p class="description">
+                Below every field, validation errors will be shown for the wrong
+                selection of inputs or parameters based on OpenCV documentation
+                and expert advice. This will save so much time for the
+                programmer in going back to OpenCV Docs and finding the source
+                of every error
+              </p>
+            </div>
+          </div>
+          <img
+            class="operator"
+            src="image/Home Page images/features icons/features-opratorvideo.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- educator -->
+
+    <div class="educator">
+      <div class="center-frame">
+        <div class="texts-section">
+          <div class="title-section">
+            <div class="title">
+              <p class="meta">Gateway of Image Processing Learning!</p>
+              <div class="title-braket">
+                <p class="title">
+                  Revolutionize <span class="span">Education with Rovren</span>
+                </p>
+                <img class="braket" src="image/Home Page images/educator images/bracket.svg" />
+              </div>
+            </div>
+          </div>
+          <p class="deacription">
+            Rovren, an innovative educational resource, redefines image
+            processing learning using OpenCV libraries. Tailored for educators
+            worldwide, it provides tools, tips, and documentation for a seamless
+            learning experience. Empower your students with Rovren and transform
+            education into a dynamic and effective venture.
+          </p>
+          <div class="buttons">
+            <p class="regular">Let's Start</p>
+            <div class="learn">
+              <p class="text">Learn More</p>
+              <img class="arrow" src="image/Home Page images/educator images/arrow-right.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="images">
+          <img
+            class="vision-respensive"
+            src="image/Home Page images/educator images/educator-vision-respensive.png"
+          />
+          <img class="vision" src="image/Home Page images/educator images/educator-vision.png" />
+          <img
+            class="recognition-respensive"
+            src="image/Home Page images/educator images/educator-recognition-respensive.png"
+          />
+          <img class="recognition"
+          src="image/Home Page images/educator images/educator-recognition.png"">
+          <img
+            class="educator-vision"
+            src="image/Home Page images/educator images/educator-vision.svg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- how section -->
+
+    <div class="how">
+      <div class="title-section">
+        <div class="title">
+          <p class="text">How it <span class="span">Works</span></p>
+          <img class="bracket" src="image/Home Page images/how images/bracket.svg" />
+        </div>
+        <p class="description">
+          Effortless image processing through a user-friendly, no-code interface
+          with drag-and-drop operators for quick mastery
+        </p>
+      </div>
+      <div class="steps-section">
+        <p class="step">Step 1</p>
+        <div class="pages">
+          <img class="arrow" src="image/Home Page images/how images/how-icon-leftarrow.svg" />
+          <p class="text">Easy to Start</p>
+          <img class="arrow" src="image/Home Page images/how images/how-icon-rightarrow.svg" />
+        </div>
+      </div>
+      <div class="images">
+        <img class="panel1" src="image/Home Page images/how images/rovren panel2 (1).png" />
+        <img class="panel2" src="image/Home Page images/how images/rovren panel2.png" />
+        <img class="panel3" src="image/Home Page images/how images/rovren panel3.png" />
+        <img class="panel4" src="image/Home Page images/how images/rovren panel4.png.png" />
+      </div>
+      <div class="description">
+        <p class="des">
+          No need for software installations or complicated configurations.
+          Simply open your web browser (which you've already done) and visit
+          Rovren's website to get started.
+        </p>
+      </div>
+    </div>
+
+    <!-- landing -->
+
+    <div class="landing">
+      <div class="title-section">
+        <img class="AI" src="image/Home Page images/landing images/landing-AI.svg" />
+        <p class="description">
+          Take action today and harness the power of Rovren to streamline your
+          journey in image processing learning and algorithm development!
+        </p>
+      </div>
+      <div class="frames">
+        <div class="frame1">
+          <img class="process" src="image/Home Page images/landing images/landing-imageprocess.png" />
+          <div class="advice">
+            <img src="image/Home Page images/landing images/landing-icon-idea.svg" />
+            <div class="title">
+              <p class="text">
+                Simplify image processing with <span class="span">Rovren</span>
+              </p>
+              <img src="image/Home Page images/landing images/bracket.svg" />
+            </div>
+            <p class="description">
+              OpenCV's challenges hinder accessibility for students and
+              professionals, but Rovren provides an inclusive solution, making
+              computer vision and image processing more accessible to a diverse
+              audience.
+            </p>
+          </div>
+        </div>
+        <div class="frame2-1">
+          <div class="advice">
+            <img src="image/Home Page images/landing images/landing-icon-idea.svg" />
+            <div class="title">
+              <p class="text">
+                Simplify image processing with <span class="span">Rovren</span>
+              </p>
+              <img src="image/Home Page images/landing images/bracket.svg" />
+            </div>
+            <p class="description">
+              OpenCV's challenges hinder accessibility for students and
+              professionals, but Rovren provides an inclusive solution, making
+              computer vision and image processing more accessible to a diverse
+              audience.
+            </p>
+          </div>
+          <img class="process" src="image/Home Page images/landing images/landing-imageprocess.png" />
+        </div>
+        <div class="frame2">
+          <div class="advice">
+            <img src="image/Home Page images/landing images/landing-icon-cpu.svg" />
+            <div class="title">
+              <p class="text">
+                Optimizing <span class="span">Computer Vision</span> Techniques
+              </p>
+              <img src="image/Home Page images/landing images/Group 427322008.svg" />
+            </div>
+            <p class="description">
+              OpenCV's challenges hinder accessibility for students and
+              professionals, but Rovren provides an inclusive solution, making
+              computer vision and image processing more accessible to a diverse
+              audience.
+            </p>
+          </div>
+          <img
+            class="process"
+            src="image/Home Page images/landing images/landing-computer vision.png"
+          />
+        </div>
+        <div class="frame2-2">
+          <div class="advice">
+            <img src="image/Home Page images/landing images/landing-icon-cpu.svg" />
+            <div class="title">
+              <p class="text">
+                Optimizing <span class="span">Computer Vision</span> Techniques
+              </p>
+              <img src="image/Home Page images/landing images/Group 427322008.svg" />
+            </div>
+            <p class="description">
+              OpenCV's challenges hinder accessibility for students and
+              professionals, but Rovren provides an inclusive solution, making
+              computer vision and image processing more accessible to a diverse
+              audience.
+            </p>
+          </div>
+          <img
+            class="process"
+            src="image/Home Page images/landing images/landing-computer vision.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="card">
+        <img src="image/Home Page images/footer images/footer-rovrenlogo.svg" />
+        <div class="media">
+          <img src="image/Home Page images/footer images/footer-icon-LinkedIn.svg" />
+          <img src="image/Home Page images/footer images/footer-icon-youtube.svg" />
+        </div>
+      </div>
+      <div class="texts">
+        <div class="copyright">
+          <p class="right">
+            <span>Copyright </span>@2024 by Rovren.
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="links">
+          <p class="text-link">Privacy <span>Policy</span></p>
+          <p class="text-link">Terms of Service</p>
+          <p class="text-link">Cookies <span>Settings</span></p>
+          <div class="lang">
+            <img src="image/Home Page images/footer images/footer-icon-globe.svg" />
+            <div class="language">
+              <p>English</p>
+              <img src="image/Home Page images/footer images/arrow-down.svg" />
+              <ul class="language__listitemdrop">
+                <li class="list__drop">Arabic</li>
+                <li class="list__drop">中国人</li>
+                <li class="list__drop">French</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="Home Page cods/index.js"></script>
+  </body>
+</html>

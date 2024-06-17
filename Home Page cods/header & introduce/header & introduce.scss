@@ -1,0 +1,474 @@
+@import "header & introduce-mixin";
+
+.header-introduce {
+  @include content-column;
+  .header {
+    @include content-column;
+    margin-top: 530px;
+    height: 150px;
+    .texts2 {
+      @include content-column;
+      text-align: center;
+
+      .Title {
+        color: #1e293b;
+        .meta {
+          @include margin;
+          font-size: 24px;
+          font-weight: 700;
+        }
+
+        .title {
+          @include margin;
+          font-size: 54px;
+          font-weight: 900;
+
+          .span {
+            color: #2977d7;
+          }
+        }
+      }
+
+      .deacription {
+        color: #1e293b;
+        width: 850px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 30px;
+      }
+    }
+
+    .button {
+      @include content-row;
+      width: 190px;
+      padding: 18px 34px 18px 34px;
+      border-radius: 6px;
+      background-color: #2977d7;
+      color: white;
+      margin-top: 35px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .design {
+      display: flex;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: -395px;
+      gap: 668px;
+
+      .ellapse1 {
+        position: absolute;
+        width: 1519px;
+        height: 720px;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+
+      .ellapse2 {
+        display: none;
+      }
+
+      .ellapse3 {
+        display: none;
+      }
+
+      .hero {
+        display: none;
+      }
+
+      .hero2 {
+        display: none;
+      }
+    }
+  }
+
+  .introduce {
+    @include content-column;
+
+    .images {
+      @include content-row;
+      position: relative;
+      right: 0;
+      left: -700px;
+      top: -780px;
+
+      .introduce-jupytervideo {
+        position: absolute;
+        left: 100px;
+        top: 760px;
+      }
+
+      .introduce-rovrenvideo {
+        position: absolute;
+        left: 550px;
+        top: 600px;
+      }
+    }
+
+    .content {
+      @include content-row;
+      color: #1e293b;
+      font-size: 18px;
+      font-weight: 400;
+      position: relative;
+      left: -350px;
+      top: -10px;
+
+      .text {
+        width: 249px;
+      }
+
+      .text2 {
+        display: none;
+      }
+
+      .span {
+        font-size: 24px;
+        font-weight: 900;
+        color: #2977d7;
+      }
+
+      .introduce-arrow {
+        position: absolute;
+        left: 270px;
+        bottom: 40px;
+      }
+    }
+
+    .title {
+      position: relative;
+      width: 358px;
+      top: 270px;
+      left: 200px;
+
+      .text2 {
+        @include margin;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .openCV {
+        @include margin;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 15px;
+        position: relative;
+
+        .span {
+          color: #2977d7;
+        }
+
+        .bracket {
+          position: absolute;
+        }
+
+        .dot {
+          position: absolute;
+          top: -150px;
+          left: 420px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header-introduce {
+    width: 979px;
+    .header {
+      margin-top: 395px;
+      .texts2 {
+        margin-top: 400px;
+        .Title {
+          .meta {
+            font-size: 30px;
+            font-weight: 700;
+          }
+
+          .title {
+            font-size: 58px;
+            font-weight: 900;
+          }
+        }
+
+        .deacription {
+          font-size: 25px;
+          width: 838px;
+          line-height: 35px;
+        }
+      }
+
+      .button {
+        width: 200px;
+        height: 85px;
+        padding: 20px 34px 20px 34px;
+        font-size: 19px;
+        cursor: pointer;
+      }
+
+      .design {
+        top: -595px;
+        .hero-tech {
+          display: none;
+        }
+
+        .ellapse2 {
+          position: absolute;
+          width: 978px;
+          left: 0;
+          right: 0;
+          display: block;
+          z-index: -1;
+        }
+
+        .ellapse1 {
+          display: none;
+        }
+
+  
+        .ellapse3 {
+          display: none;
+        }
+
+        .hero {
+          display: block;
+          width: 978px;
+          height: 345px;
+        }
+      }
+    }
+
+    .introduce {
+      .images {
+        top: -480px;
+        left: -540px;
+        .introduce-jupytervideo {
+          left: 80px;
+          top: 865px;
+          width: 620px;
+        }
+
+        .introduce-rovrenvideo {
+          left: 300px;
+          top: 640px;
+          width: 720px;
+        }
+      }
+
+      .content {
+        font-size: 18px;
+        font-weight: 400;
+        left: -310px;
+        top: 210px;
+
+        .text {
+          display: none;
+        }
+
+        .text2 {
+          position: absolute;
+          display: block;
+          font-size: 23px;
+          font-weight: 400;
+          color: #1e293b;
+          left: -110px;
+          bottom: -190px;
+          width: 210px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        .span {
+          font-size: 24px;
+          font-weight: 900;
+          color: #2977d7;
+          display: flex;
+          align-items: end;
+          justify-content: end;
+          width: 200px;
+        }
+
+        .introduce-arrow {
+          left: -80px;
+          bottom: -120px;
+          width: 100px;
+        }
+      }
+
+      .title {
+        position: relative;
+        width: 300px;
+        top: 800px;
+        left: 0;
+
+        .text2 {
+          font-size: 23px;
+          width: 350px;
+          font-weight: 600;
+          color: #627aa1;
+          text-align: center;
+        }
+
+        .openCV {
+          font-size: 38px;
+          font-weight: 900;
+          width: 350px;
+
+          .bracket {
+            position: absolute;
+            left: 340px;
+            top: -2px;
+          }
+
+          .dot {
+            width: 155px;
+            top: -320px;
+            left: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .header-introduce {
+    width: 895px;
+    .header {
+      margin-top: 330px;
+
+      .design {
+        position: relative;
+        top: -500px;
+        .ellapse2 {
+          display: none;
+        }
+  
+        .ellapse3 {
+          position: absolute;
+          left: -500px;
+          right: 0;
+          top: -200px;
+          display: block;
+          z-index: -1;
+          width: 945px;
+        }
+
+        .hero {
+          display: none;
+        }
+
+        .hero2 {
+          position: absolute;
+          left: -450px;
+          right: 0;
+          display: block;
+          width: 895px;
+          top: -100px;
+        }
+      }
+
+      .texts2 {
+        .Title{
+          .meta {
+            font-size: 43px;
+          }
+
+          .title {
+            font-size: 75px;
+          }
+        }
+
+        .deacription {
+          font-size: 40px;
+          line-height: 55px;
+          width: 775px;
+        }
+      }
+
+      .button {
+        width: 355px;
+        height: 115px;
+        font-size: 35px;
+        position: absolute;
+        top: 25em;
+        left: 275px;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+
+    .introduce {
+      position: relative;
+      top: 30em;
+
+      .content {
+
+        .text2 {
+          display: none;
+        }
+
+        .introduce-arrow {
+          left: -45px;
+          top: 45px;
+          width: 140px;
+        } 
+      }   
+      
+      .images {
+        left: -525px;
+
+        .introduce-rovrenvideo {
+          width: 673px;
+        }
+      }
+
+      .title {
+        top: 820px;
+        width: 510px;
+        line-height: 5em;
+
+        .text2 {
+          font-size: 44px;
+          width: 560px;
+        }
+
+        .openCV {
+          font-size: 62px;
+          width: 565px;
+
+          .bracket {
+            width: 16px;
+            left: 565px;
+          }
+
+          .dot {
+            width: 175px;
+            top: -470px;
+            left: 430px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .header-introduce {
+    min-width: 2004px;
+  }
+}

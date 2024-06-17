@@ -1,0 +1,480 @@
+@import "features-mixin";
+
+.features {
+  @include content-column;
+  position: relative;
+  top: 530px;
+  left: 0;
+  right: 0;
+
+  .heading {
+    @include content-column;
+
+    .titles {
+      @include content-row;
+
+      .title {
+        font-size: 40px;
+        font-weight: 900;
+        color: #1e293b;
+
+        .span {
+          color: #2977d7;
+        }
+      }
+    }
+
+    .description {
+      @include margin;
+      text-align: center;
+      width: 1200px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+
+  .feature-section {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+
+    .feature1 {
+      @include feature;
+
+      .texts {
+        margin-left: 65px;
+        .badge {
+          @include content-row;
+          @include badge;
+
+          .text {
+            @include text;
+          }
+        }
+
+        .section-title {
+          .title {
+            @include margin;
+            @include title;
+          }
+
+          .description {
+            @include description;
+          }
+        }
+      }
+    }
+
+    .feature2 {
+      @include feature;
+      margin-top: -80px;
+      .texts {
+        margin-left: 55px;
+        .badge {
+          @include content-row;
+          @include badge;
+          .text {
+            @include text;
+          }
+        }
+
+        .section-title {
+          .title {
+            @include margin;
+            @include title;
+          }
+
+          .description {
+            @include description;
+          }
+        }
+      }
+    }
+
+    .feature3 {
+      @include feature;
+      margin-top: -150px;
+      .texts {
+        margin-left: 65px;
+        .badge {
+          @include content-row;
+          @include badge;
+          .text {
+            @include text;
+          }
+        }
+
+        .section-title {
+          .title {
+            @include margin;
+            @include title;
+          }
+
+          .description {
+            @include description;
+          }
+        }
+      }
+    }
+
+    .feature4 {
+      @include feature;
+      margin-top: -200px;
+      .texts {
+        margin-left: 55px;
+        .badge {
+          @include content-row;
+          @include badge;
+
+          .text {
+            @include text;
+          }
+        }
+
+        .section-title {
+          .title {
+            @include margin;
+            @include title;
+          }
+
+          .description {
+            @include description;
+          }
+        }
+      }
+    }
+
+    .feature2-4 {
+      display: none;
+    }
+    .feature2-2 {
+      display: none;
+    }
+
+    .operator {
+      @include content-column;
+      margin-top: 55px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    width: 979px;
+    top: 950px;
+    left: 0;
+    right: 0;
+
+    .heading {
+      .titles {
+        @include content-row;
+
+        .title {
+          font-size: 40px;
+          font-weight: 900;
+          color: #1e293b;
+
+          .span {
+            color: #2977d7;
+          }
+        }
+      }
+
+      .description {
+        text-align: center;
+        width: 800px;
+        font-size: 23px;
+        font-weight: 400;
+      }
+    }
+
+    .feature-section {
+      @include content-column;
+
+      .feature1 {
+        @include content-row;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-top: 90px;
+        .texts {
+          @include content-column;
+          @include margin;
+          gap: 25px;
+
+          .section-title {
+            @include content-column;
+            height: 140px;
+
+            .description {
+              @include description-respensive;
+            }
+          }
+        }
+      }
+
+      .feature2-2 {
+        @include content-row;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-top: 190px;
+        .texts {
+          @include content-column;
+          @include margin;
+          gap: 25px;
+
+          .badge {
+            @include content-row;
+            @include badge;
+            .text {
+              @include text;
+            }
+          }
+
+          .section-title {
+            @include content-column;
+            height: 140px;
+
+            .title {
+              @include margin;
+              @include title;
+            }
+
+            .description {
+              @include description-respensive;
+            }
+          }
+        }
+      }
+
+      .feature2 {
+        display: none;
+      }
+
+      .feature3 {
+        @include content-row;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: -20px;
+        .texts {
+          @include content-column;
+          @include margin;
+          gap: 25px;
+
+          .section-title {
+            @include content-column;
+            height: 140px;
+
+            .description {
+              @include description-respensive;
+            }
+          }
+        }
+      }
+
+      .feature4 {
+        display: none;
+      }
+
+      .feature2-4 {
+        @include content-row;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 220px;
+        .texts {
+          @include content-column;
+          @include margin;
+          gap: 25px;
+
+          .badge {
+            @include content-row;
+            @include badge;
+
+            .text {
+              @include text;
+            }
+          }
+
+          .section-title {
+            @include content-column;
+            height: 140px;
+
+            .title {
+              @include margin;
+              @include title;
+            }
+
+            .description {
+              @include description-respensive;
+            }
+          }
+        }
+      }
+
+      .operator {
+        @include content-column;
+        @include margin;
+        width: 710px;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .features {
+    width: 895px;
+    top: 93em;
+    left: 0;
+    right: 0;
+
+    .heading {
+      .AI {
+        width: 170px;
+      }
+      .titles {
+        .title {
+          font-size: 60px;
+          font-weight: 900;
+        }
+
+        .bracket {
+          width: 16px;
+        }
+      }
+
+      .description {
+        width: 860px;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 400;
+      }
+    }
+
+    .feature-section {
+      width: 895px;
+      .feature1 {
+        width: 895px;
+        gap: 225px;
+        .texts {
+          gap: 45px;
+          .badge {
+            margin-bottom: 20px;
+            width: 350px;
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              @include description-respensive2;
+              width: 840px;
+            }
+          }
+        }
+      }
+
+      .feature2-2 {
+        width: 895px;
+        gap: 240px;
+        margin-top: 580px;
+        .texts {
+          gap: 45px;
+          .badge {
+            margin-bottom: 20px;
+            width: 290px;
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              @include description-respensive2;
+              width: 875px;
+            }
+          }
+        }
+      }
+
+      .feature3 {
+        width: 895px;
+        gap: 290px;
+        margin-top: -60px;
+        .texts {
+          gap: 45px;
+          .badge {
+            margin-bottom: 20px;
+            width: 320px;
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              @include description-respensive2;
+              width: 880px;
+            }
+          }
+        }
+      }
+
+      .feature2-4 {
+        width: 895px;
+        gap: 300px;
+        margin-top: 635px;
+        .texts {
+          gap: 45px;
+          .badge {
+            width: 325px;
+            margin-bottom: 20px;
+            .text {
+              font-size: 35px;
+            }
+
+            img {
+              width: 45px;
+            }
+          }
+          .section-title {
+            .title {
+              font-size: 60px;
+            }
+            .description {
+              @include description-respensive2;
+              width: 860px;
+            }
+          }
+        }
+      }
+
+      .operator {
+        width: 1125px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .features {
+    min-width: 2004px;
+  }
+}

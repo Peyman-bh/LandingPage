@@ -1,0 +1,85 @@
+@import "logos-mixin";
+
+.logos {
+  @include content-column;
+  position: relative;
+  top: 400px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 180px;
+  width: auto;
+  padding: 40px 64px 40px 64px;
+  gap: 48px;
+  background-color: #f7f9fc;
+
+  .title {
+    .text {
+      font-size: 18px;
+      font-weight: 400;
+      .span {
+        font-size: 24px;
+        font-weight: 900;
+        color: #1e293b;
+      }
+    }
+  }
+
+  .content {
+    @include content-row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logos {
+    top: 870px;
+    width: 850px;
+    padding: 70px 64px 70px 64px;
+
+    .content {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .logos {
+    top: 87em;
+    width: 767px;
+    height: 350px;
+    padding: 70px 64px 70px 64px;
+
+    .title {
+      .text {
+        width: 785px;
+        font-size: 40px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        .span {
+          font-size: 55px;
+        }
+      }
+    }
+
+    .content {
+      width: 865px;
+      gap: 35px;
+      margin-bottom: 90px;
+
+      .logo {
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .logos {
+    min-width: 1874px;
+  }
+}

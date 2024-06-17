@@ -1,0 +1,279 @@
+@import "landing-mixin";
+
+.landing {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 32em;
+  background-color: #dde9f99d;
+  padding: 80px;
+  padding-bottom: 150px;
+
+  .title-section {
+    @include content-column;
+
+    .description {
+      @include content-row;
+      width: 880px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+      text-align: center;
+    }
+  }
+
+  .frames {
+    @include content-column;
+    margin-top: 50px;
+    .frame1 {
+      @include content-row;
+      gap: 30px;
+
+      .advice {
+        .title {
+          @include content-row;
+          .text {
+            @include margin;
+            @include text;
+
+            .span {
+              color: #2977d7;
+            }
+          }
+        }
+        .description {
+          @include description;
+        }
+      }
+    }
+
+    .frame2 {
+      @include content-row;
+      gap: 30px;
+      margin-top: 80px;
+
+      .advice {
+        margin-left: 120px;
+        .title {
+          @include content-row;
+          .text {
+            @include margin;
+            @include text;
+
+            .span {
+              color: #2977d7;
+            }
+          }
+        }
+        .description {
+          @include description;
+        }
+      }
+    }
+
+    .frame2-2 {
+      display: none;
+    }
+
+    .frame2-1 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .landing {
+    top: 70em;
+    left: 0;
+    right: 0;
+    width: 820px;
+
+    .title-section {
+      @include margin;
+      .description {
+        font-size: 26px;
+      }
+    }
+
+    .frames {
+      .frame1 {
+        .process {
+          @include margin;
+          width: 357px;
+        }
+
+        .advice {
+          .title {
+            width: 531px;
+            .text {
+              font-size: 30px;
+              width: 521px;
+            }
+          }
+          .description {
+            font-size: 25px;
+            width: 490px;
+          }
+        }
+      }
+
+      .frame2 {
+        gap: 0;
+        .process {
+          @include margin;
+          width: 357px;
+        }
+
+        .advice {
+          @include margin;
+          width: 5;
+          .title {
+            width: 550px;
+            .text {
+              font-size: 30px;
+              width: 541px;
+            }
+          }
+          .description {
+            font-size: 25px;
+            width: 490px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .landing {
+    position: relative;
+    top: 115em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 740px;
+    height: 2740px;
+
+    .title-section {
+      .AI {
+        width: 170px;
+      }
+      .description {
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 500;
+        width: 745px;
+      }
+    }
+
+    .frames {
+      gap: 100px;
+      margin-top: 0;
+      .frame2-1 {
+        display: block;
+        @include content-column;
+        gap: 40px;
+        margin-top: 80px;
+        width: 885px;
+
+        .process {
+          width: 650px;
+        }
+
+        .advice {
+          @include content-column;
+
+          img {
+            width: 80px;
+          }
+          .title {
+            @include content-row;
+            .text {
+              @include margin;
+              display: flex;
+              font-size: 45px;
+              font-weight: 900;
+              margin-top: 50px;
+
+              .span {
+                color: #2977d7;
+              }
+            }
+
+            img {
+              width: 13px;
+              margin-top: 55px;
+            }
+          }
+          .description {
+            font-size: 37px;
+            font-weight: 400;
+            line-height: 58px;
+            width: 800px;
+            text-align: center;
+          }
+        }
+      }
+
+      .frame1 {
+        display: none;
+      }
+
+      .frame2 {
+        display: none;
+      }
+
+      .frame2-2 {
+        display: block;
+        @include content-column;
+        gap: 40px;
+        margin-top: 80px;
+        width: 885px;
+
+        .process {
+          width: 650px;
+        }
+
+        .advice {
+          @include content-column;
+
+          img {
+            width: 80px;
+          }
+          .title {
+            @include content-row;
+            .text {
+              @include margin;
+              display: flex;
+              font-size: 45px;
+              font-weight: 900;
+              margin-top: 50px;
+
+              .span {
+                color: #2977d7;
+              }
+            }
+
+            img {
+              width: 13px;
+              margin-top: 55px;
+            }
+          }
+          .description {
+            font-size: 37px;
+            font-weight: 400;
+            line-height: 58px;
+            width: 800px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing {
+    min-width: 1840px;
+  }
+}

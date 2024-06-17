@@ -1,0 +1,245 @@
+.how {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 26em;
+}
+.how .title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.how .title-section .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.how .title-section .title .text {
+  font-size: 40px;
+  font-weight: 900;
+}
+.how .title-section .title .text .span {
+  color: #2977d7;
+}
+.how .title-section .title .bracket {
+  position: absolute;
+  left: 56em;
+  top: 2.5em;
+}
+.how .title-section .description {
+  margin: 0;
+  padding: 0;
+  width: 665px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+.how .steps-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.how .steps-section .step {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2977d7;
+}
+.how .steps-section .pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+.how .steps-section .pages img {
+  cursor: pointer;
+}
+.how .steps-section .pages .text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.how .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 215px;
+}
+.how .images .panel3 {
+  display: none;
+}
+.how .images .panel4 {
+  display: none;
+}
+.how .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.how .description .des {
+  margin: 0;
+  padding: 0;
+  width: 775px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .how {
+    width: 980zpx;
+    top: 64em;
+    left: 0;
+    right: 0;
+  }
+  .how .title-section {
+    gap: 10px;
+  }
+  .how .title-section .title {
+    height: 70px;
+  }
+  .how .title-section .title .bracket {
+    left: 39em;
+    top: 0.8em;
+  }
+  .how .steps-section {
+    margin-top: 40px;
+  }
+  .how .steps-section .step {
+    font-size: 25px;
+  }
+  .how .steps-section .pages {
+    gap: 45px;
+  }
+  .how .steps-section .pages .arrow {
+    cursor: pointer;
+    width: 65px;
+  }
+  .how .steps-section .pages .text {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .how .description {
+    margin-top: 445px;
+  }
+  .how .description .des {
+    font-size: 22px;
+    width: 845px;
+  }
+  .how .images {
+    position: relative;
+    margin-left: 0px;
+    top: -320px;
+  }
+  .how .images .panel1 {
+    position: absolute;
+    top: 320px;
+    width: 835px;
+    left: 78px;
+    right: 0;
+  }
+  .how .images .panel2 {
+    display: none;
+  }
+  .how .images .panel3 {
+    position: absolute;
+    display: block;
+    width: 134px;
+    top: 310px;
+    left: 846px;
+  }
+}
+@media (max-width: 376px) {
+  .how {
+    width: 895px;
+    top: 105em;
+    left: 0;
+    right: 0;
+  }
+  .how .title-section {
+    display: flex;
+    gap: 30px;
+  }
+  .how .title-section .title {
+    height: 70px;
+  }
+  .how .title-section .title .text {
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .how .title-section .title .bracket {
+    left: 41em;
+    top: 0.2em;
+    width: 14px;
+  }
+  .how .title-section .description {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+    width: 800px;
+  }
+  .how .steps-section {
+    margin-top: 60px;
+  }
+  .how .steps-section .step {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .how .steps-section .pages {
+    gap: 135px;
+  }
+  .how .steps-section .pages .text {
+    font-size: 55px;
+    font-weight: 700px;
+  }
+  .how .steps-section .pages .arrow {
+    width: 100px;
+  }
+  .how .description .des {
+    margin-top: 80px;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 400;
+    width: 845px;
+  }
+  .how .images {
+    margin-left: 0px;
+  }
+  .how .images .panel1 {
+    position: absolute;
+    top: 350px;
+    width: 895px;
+    left: 0;
+    right: 0;
+  }
+  .how .images .panel3 {
+    display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .how {
+    min-width: 2004px;
+  }
+  .how .images .panel1 {
+    margin-left: 238px;
+  }
+  .how .images .panel2 {
+    display: none;
+  }
+  .how .images .panel4 {
+    display: block;
+  }
+}/*# sourceMappingURL=how.css.map */

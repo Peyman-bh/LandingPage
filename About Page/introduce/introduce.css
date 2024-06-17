@@ -14,14 +14,17 @@
   display: none;
 }
 .introduce .introduce-images {
+  position: relative;
   width: 500px;
   height: 500px;
 }
-.introduce .introduce-images .card {
+.introduce .card {
   position: absolute;
-  top: 650px;
-  left: 70px;
+  left: -170px;
   right: 0;
+  top: 140px;
+  bottom: 0;
+  z-index: 1;
 }
 .introduce .introduce-texts {
   width: 500px;

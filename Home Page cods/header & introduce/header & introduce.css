@@ -1,0 +1,419 @@
+.header-introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-introduce .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 530px;
+  height: 150px;
+}
+.header-introduce .header .texts2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-introduce .header .texts2 .Title {
+  color: #1e293b;
+}
+.header-introduce .header .texts2 .Title .meta {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-introduce .header .texts2 .Title .title {
+  margin: 0;
+  padding: 0;
+  font-size: 54px;
+  font-weight: 900;
+}
+.header-introduce .header .texts2 .Title .title .span {
+  color: #2977d7;
+}
+.header-introduce .header .texts2 .deacription {
+  color: #1e293b;
+  width: 850px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.header-introduce .header .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  padding: 18px 34px 18px 34px;
+  border-radius: 6px;
+  background-color: #2977d7;
+  color: white;
+  margin-top: 35px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.header-introduce .header .design {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: -395px;
+  gap: 668px;
+}
+.header-introduce .header .design .ellapse1 {
+  position: absolute;
+  width: 1519px;
+  height: 720px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.header-introduce .header .design .ellapse2 {
+  display: none;
+}
+.header-introduce .header .design .ellapse3 {
+  display: none;
+}
+.header-introduce .header .design .hero {
+  display: none;
+}
+.header-introduce .header .design .hero2 {
+  display: none;
+}
+.header-introduce .introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-introduce .introduce .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 0;
+  left: -700px;
+  top: -780px;
+}
+.header-introduce .introduce .images .introduce-jupytervideo {
+  position: absolute;
+  left: 100px;
+  top: 760px;
+}
+.header-introduce .introduce .images .introduce-rovrenvideo {
+  position: absolute;
+  left: 550px;
+  top: 600px;
+}
+.header-introduce .introduce .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  left: -350px;
+  top: -10px;
+}
+.header-introduce .introduce .content .text {
+  width: 249px;
+}
+.header-introduce .introduce .content .text2 {
+  display: none;
+}
+.header-introduce .introduce .content .span {
+  font-size: 24px;
+  font-weight: 900;
+  color: #2977d7;
+}
+.header-introduce .introduce .content .introduce-arrow {
+  position: absolute;
+  left: 270px;
+  bottom: 40px;
+}
+.header-introduce .introduce .title {
+  position: relative;
+  width: 358px;
+  top: 270px;
+  left: 200px;
+}
+.header-introduce .introduce .title .text2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header-introduce .introduce .title .openCV {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+  position: relative;
+}
+.header-introduce .introduce .title .openCV .span {
+  color: #2977d7;
+}
+.header-introduce .introduce .title .openCV .bracket {
+  position: absolute;
+}
+.header-introduce .introduce .title .openCV .dot {
+  position: absolute;
+  top: -150px;
+  left: 420px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .header-introduce {
+    width: 979px;
+  }
+  .header-introduce .header {
+    margin-top: 395px;
+  }
+  .header-introduce .header .texts2 {
+    margin-top: 400px;
+  }
+  .header-introduce .header .texts2 .Title .meta {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .header-introduce .header .texts2 .Title .title {
+    font-size: 58px;
+    font-weight: 900;
+  }
+  .header-introduce .header .texts2 .deacription {
+    font-size: 25px;
+    width: 838px;
+    line-height: 35px;
+  }
+  .header-introduce .header .button {
+    width: 200px;
+    height: 85px;
+    padding: 20px 34px 20px 34px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  .header-introduce .header .design {
+    top: -595px;
+  }
+  .header-introduce .header .design .hero-tech {
+    display: none;
+  }
+  .header-introduce .header .design .ellapse2 {
+    position: absolute;
+    width: 978px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: -1;
+  }
+  .header-introduce .header .design .ellapse1 {
+    display: none;
+  }
+  .header-introduce .header .design .ellapse3 {
+    display: none;
+  }
+  .header-introduce .header .design .hero {
+    display: block;
+    width: 978px;
+    height: 345px;
+  }
+  .header-introduce .introduce .images {
+    top: -480px;
+    left: -540px;
+  }
+  .header-introduce .introduce .images .introduce-jupytervideo {
+    left: 80px;
+    top: 865px;
+    width: 620px;
+  }
+  .header-introduce .introduce .images .introduce-rovrenvideo {
+    left: 300px;
+    top: 640px;
+    width: 720px;
+  }
+  .header-introduce .introduce .content {
+    font-size: 18px;
+    font-weight: 400;
+    left: -310px;
+    top: 210px;
+  }
+  .header-introduce .introduce .content .text {
+    display: none;
+  }
+  .header-introduce .introduce .content .text2 {
+    position: absolute;
+    display: block;
+    font-size: 23px;
+    font-weight: 400;
+    color: #1e293b;
+    left: -110px;
+    bottom: -190px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .header-introduce .introduce .content .span {
+    font-size: 24px;
+    font-weight: 900;
+    color: #2977d7;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 200px;
+  }
+  .header-introduce .introduce .content .introduce-arrow {
+    left: -80px;
+    bottom: -120px;
+    width: 100px;
+  }
+  .header-introduce .introduce .title {
+    position: relative;
+    width: 300px;
+    top: 800px;
+    left: 0;
+  }
+  .header-introduce .introduce .title .text2 {
+    font-size: 23px;
+    width: 350px;
+    font-weight: 600;
+    color: #627aa1;
+    text-align: center;
+  }
+  .header-introduce .introduce .title .openCV {
+    font-size: 38px;
+    font-weight: 900;
+    width: 350px;
+  }
+  .header-introduce .introduce .title .openCV .bracket {
+    position: absolute;
+    left: 340px;
+    top: -2px;
+  }
+  .header-introduce .introduce .title .openCV .dot {
+    width: 155px;
+    top: -320px;
+    left: 400px;
+  }
+}
+@media (max-width: 376px) {
+  .header-introduce {
+    width: 895px;
+  }
+  .header-introduce .header {
+    margin-top: 330px;
+  }
+  .header-introduce .header .design {
+    position: relative;
+    top: -500px;
+  }
+  .header-introduce .header .design .ellapse2 {
+    display: none;
+  }
+  .header-introduce .header .design .ellapse3 {
+    position: absolute;
+    left: -500px;
+    right: 0;
+    top: -200px;
+    display: block;
+    z-index: -1;
+    width: 945px;
+  }
+  .header-introduce .header .design .hero {
+    display: none;
+  }
+  .header-introduce .header .design .hero2 {
+    position: absolute;
+    left: -450px;
+    right: 0;
+    display: block;
+    width: 895px;
+    top: -100px;
+  }
+  .header-introduce .header .texts2 .Title .meta {
+    font-size: 43px;
+  }
+  .header-introduce .header .texts2 .Title .title {
+    font-size: 75px;
+  }
+  .header-introduce .header .texts2 .deacription {
+    font-size: 40px;
+    line-height: 55px;
+    width: 775px;
+  }
+  .header-introduce .header .button {
+    width: 355px;
+    height: 115px;
+    font-size: 35px;
+    position: absolute;
+    top: 25em;
+    left: 275px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .header-introduce .introduce {
+    position: relative;
+    top: 30em;
+  }
+  .header-introduce .introduce .content .text2 {
+    display: none;
+  }
+  .header-introduce .introduce .content .introduce-arrow {
+    left: -45px;
+    top: 45px;
+    width: 140px;
+  }
+  .header-introduce .introduce .images {
+    left: -525px;
+  }
+  .header-introduce .introduce .images .introduce-rovrenvideo {
+    width: 673px;
+  }
+  .header-introduce .introduce .title {
+    top: 820px;
+    width: 510px;
+    line-height: 5em;
+  }
+  .header-introduce .introduce .title .text2 {
+    font-size: 44px;
+    width: 560px;
+  }
+  .header-introduce .introduce .title .openCV {
+    font-size: 62px;
+    width: 565px;
+  }
+  .header-introduce .introduce .title .openCV .bracket {
+    width: 16px;
+    left: 565px;
+  }
+  .header-introduce .introduce .title .openCV .dot {
+    width: 175px;
+    top: -470px;
+    left: 430px;
+  }
+}
+@media (min-width: 1920px) {
+  .header-introduce {
+    min-width: 2004px;
+  }
+}/*# sourceMappingURL=header & introduce.css.map */

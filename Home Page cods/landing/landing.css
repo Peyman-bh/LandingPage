@@ -1,0 +1,294 @@
+.landing {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 32em;
+  background-color: rgba(221, 233, 249, 0.6156862745);
+  padding: 80px;
+  padding-bottom: 150px;
+}
+.landing .title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing .title-section .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 880px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+}
+.landing .frames {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.landing .frames .frame1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.landing .frames .frame1 .advice .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.landing .frames .frame1 .advice .title .text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  color: #1e293b;
+}
+.landing .frames .frame1 .advice .title .text .span {
+  color: #2977d7;
+}
+.landing .frames .frame1 .advice .description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 570px;
+}
+.landing .frames .frame2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+.landing .frames .frame2 .advice {
+  margin-left: 120px;
+}
+.landing .frames .frame2 .advice .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.landing .frames .frame2 .advice .title .text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  color: #1e293b;
+}
+.landing .frames .frame2 .advice .title .text .span {
+  color: #2977d7;
+}
+.landing .frames .frame2 .advice .description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 570px;
+}
+.landing .frames .frame2-2 {
+  display: none;
+}
+.landing .frames .frame2-1 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .landing {
+    top: 70em;
+    left: 0;
+    right: 0;
+    width: 820px;
+  }
+  .landing .title-section {
+    margin: 0;
+    padding: 0;
+  }
+  .landing .title-section .description {
+    font-size: 26px;
+  }
+  .landing .frames .frame1 .process {
+    margin: 0;
+    padding: 0;
+    width: 357px;
+  }
+  .landing .frames .frame1 .advice .title {
+    width: 531px;
+  }
+  .landing .frames .frame1 .advice .title .text {
+    font-size: 30px;
+    width: 521px;
+  }
+  .landing .frames .frame1 .advice .description {
+    font-size: 25px;
+    width: 490px;
+  }
+  .landing .frames .frame2 {
+    gap: 0;
+  }
+  .landing .frames .frame2 .process {
+    margin: 0;
+    padding: 0;
+    width: 357px;
+  }
+  .landing .frames .frame2 .advice {
+    margin: 0;
+    padding: 0;
+    width: 5;
+  }
+  .landing .frames .frame2 .advice .title {
+    width: 550px;
+  }
+  .landing .frames .frame2 .advice .title .text {
+    font-size: 30px;
+    width: 541px;
+  }
+  .landing .frames .frame2 .advice .description {
+    font-size: 25px;
+    width: 490px;
+  }
+}
+@media (max-width: 376px) {
+  .landing {
+    position: relative;
+    top: 115em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 740px;
+    height: 2740px;
+  }
+  .landing .title-section .AI {
+    width: 170px;
+  }
+  .landing .title-section .description {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 500;
+    width: 745px;
+  }
+  .landing .frames {
+    gap: 100px;
+    margin-top: 0;
+  }
+  .landing .frames .frame2-1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    width: 885px;
+  }
+  .landing .frames .frame2-1 .process {
+    width: 650px;
+  }
+  .landing .frames .frame2-1 .advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-1 .advice img {
+    width: 80px;
+  }
+  .landing .frames .frame2-1 .advice .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-1 .advice .title .text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .landing .frames .frame2-1 .advice .title .text .span {
+    color: #2977d7;
+  }
+  .landing .frames .frame2-1 .advice .title img {
+    width: 13px;
+    margin-top: 55px;
+  }
+  .landing .frames .frame2-1 .advice .description {
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 58px;
+    width: 800px;
+    text-align: center;
+  }
+  .landing .frames .frame1 {
+    display: none;
+  }
+  .landing .frames .frame2 {
+    display: none;
+  }
+  .landing .frames .frame2-2 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    width: 885px;
+  }
+  .landing .frames .frame2-2 .process {
+    width: 650px;
+  }
+  .landing .frames .frame2-2 .advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-2 .advice img {
+    width: 80px;
+  }
+  .landing .frames .frame2-2 .advice .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .frames .frame2-2 .advice .title .text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .landing .frames .frame2-2 .advice .title .text .span {
+    color: #2977d7;
+  }
+  .landing .frames .frame2-2 .advice .title img {
+    width: 13px;
+    margin-top: 55px;
+  }
+  .landing .frames .frame2-2 .advice .description {
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 58px;
+    width: 800px;
+    text-align: center;
+  }
+}
+@media (min-width: 1920px) {
+  .landing {
+    min-width: 1840px;
+  }
+}/*# sourceMappingURL=landing.css.map */

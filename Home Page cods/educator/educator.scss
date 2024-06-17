@@ -1,0 +1,334 @@
+@import "educator-mixin";
+
+.educator {
+  @include content-row;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 23em;
+  background-color: #dde9f99d;
+  height: 550px;
+  border-top: 1px solid #2977d75c;
+  border-bottom: 1px solid #2977d75c;
+
+  .center-frame {
+    @include content-row;
+    position: relative;
+    right: 0;
+    left: -200px;
+    .texts-section {
+      width: 695px;
+
+      .title-section {
+        .title {
+          .meta {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+          }
+
+          .title-braket {
+            display: flex;
+            font-size: 40px;
+            font-weight: 900;
+            color: #1e293b;
+
+            .title {
+              @include margin;
+            }
+            .span {
+              color: #2977d7;
+            }
+          }
+        }
+      }
+
+      .deacription {
+        width: 500px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #1e293b;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 8px;
+
+        .regular {
+          width: 130px;
+          height: 25px;
+          padding: 14px 24px 14px 24px;
+          border-radius: 6px;
+          background-color: #2977d7;
+          text-align: center;
+          color: white;
+          cursor: pointer;
+        }
+
+        .learn {
+          @include margin;
+          @include content-row;
+          width: 200px;
+          display: flex;
+          gap: 8px;
+          cursor: pointer;
+
+          .text {
+            text-align: center;
+            height: 25px;
+            color: #2977d7;
+            font-size: 18px;
+            font-weight: 500;
+          }
+
+          .arrow {
+            width: 30px;
+            height: 65px;
+          }
+        }
+      }
+    }
+
+    .images {
+      @include content-row;
+      position: relative;
+      left: -780px;
+      right: 0;
+      top: -210px;
+      bottom: 0;
+      .recognition {
+        width: 244px;
+        position: absolute;
+        left: 950px;
+        top: 35px;
+      }
+
+      .vision {
+        position: absolute;
+        left: 760px;
+        top: 200px;
+        z-index: 2;
+      }
+
+      .educator-vision {
+        position: absolute;
+        left: 825px;
+        top: 30px;
+      }
+
+      .recognition-respensive {
+        display: none;
+      }
+
+      .vision-respensive {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .educator {
+    top: 60em;
+    width: 980px;
+    height: 650px;
+
+    .center-frame {
+      width: 680px;
+      left: -150px;
+      .texts-section {
+        width: 650px;
+        margin-left: 120px;
+
+        .title-section {
+          width: 650px;
+          .title {
+            width: 690px;
+            .meta {
+              @include margin;
+              margin-bottom: 15px;
+            }
+
+            .title-braket {
+              width: 680px;
+
+              .title {
+                width: 668px;
+              }
+            }
+          }
+        }
+
+        .deacription {
+          font-size: 22px;
+          width: 410px;
+        }
+      }
+
+      .images {
+        .recognition {
+          display: none;
+        }
+
+        .vision {
+          display: none;
+        }
+
+        .recognition-respensive {
+          position: absolute;
+          display: block;
+          width: 250px;
+          left: 710px;
+          top: 95px;
+        }
+
+        .vision-respensive {
+          position: absolute;
+          display: block;
+          top: 255px;
+          left: 570px;
+          z-index: 1;
+        }
+
+        .educator-vision {
+          width: 94px;
+          left: 572px;
+          top: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .educator {
+    width: 895px;
+    top: 97em;
+    height: 105em;
+
+    .center-frame {
+      top: -360px;
+      .texts-section {
+        width: 650px;
+        margin-left: 0px;
+
+        .title-section {
+          @include content-column;
+          position: absolute;
+          width: 645px;
+          top: -150px;
+          left: 200px;
+          right: 0;
+          bottom: 495px;
+          text-align: center;
+          .title {
+            width: 820px;
+            .meta {
+              font-size: 35px;
+              width: 750px;
+            }
+
+            .title-braket {
+              width: 770px;
+              font-size: 45px;
+              margin-bottom: 370px;
+
+              .title {
+                width: 770px;
+              }
+
+              img {
+                width: 14px;
+              }
+            }
+          }
+        }
+
+        .deacription {
+          position: absolute;
+          top: 530px;
+          left: 105px;
+          width: 795px;
+          height: 100px;
+          font-size: 33px;
+          line-height: 47px;
+          font-weight: 500;
+          text-align: center;
+        }
+
+        .buttons {
+          @include content-column;
+          width: 873px;
+          position: absolute;
+          top: 880px;
+          left: 55px;
+          right: 0;
+          gap: 0;
+
+          .regular {
+            width: 250px;
+            height: 50px;
+            padding: 35px 24px 14px 24px;
+            font-size: 30px;
+            font-weight: 400;
+          }
+
+          .learn {
+            width: 200px;
+
+            .text {
+              height: 25px;
+              font-size: 30px;
+              font-weight: 400;
+            }
+
+            .arrow {
+              display: none;
+            }
+          }
+        }
+      }
+      .images {
+        top: 0;
+        left: -750px;
+        .recognition {
+          display: none;
+        }
+
+        .vision {
+          display: none;
+        }
+
+        .recognition-respensive {
+          position: absolute;
+          display: block;
+          width: 520px;
+          left: 460px;
+          top: -220px;
+        }
+
+        .vision-respensive {
+          position: absolute;
+          display: block;
+          width: 580px;
+          top: 85px;
+          left: 170px;
+          z-index: 1;
+        }
+
+        .educator-vision {
+          left: 225px;
+          top: -190px;
+          width: 180px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .educator {
+    min-width: 2004px;
+  }
+}
